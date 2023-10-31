@@ -1,13 +1,4 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bebas+Neue&family=Poppins&family=Young+Serif&display=swap');
-/* Style for the entire app */
-body {
-    font-family: poppins;
-}
-h1{
-    font-family: Abril ;
-    font-weight: bolder;
-}
+

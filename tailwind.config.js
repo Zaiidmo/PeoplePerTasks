@@ -5,8 +5,9 @@ module.exports = {
     fontFamily: {
       Abril : ['Abril Fatface', 'serif'],
       poppins : ['poppins'],
+      'a'
     },
-    extend: {},
+    extend: {}
   },
   darkMode: "class",
 };
