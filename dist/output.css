@@ -783,10 +783,6 @@ video {
   text-align: center;
 }
 
-.font-poppins {
-  font-family: poppins;
-}
-
 .text-4xl {
   font-size: 2.25rem;
   line-height: 2.5rem;
@@ -1171,5 +1167,4 @@ video {
     line-height: 2;
   }
 }
-
 
