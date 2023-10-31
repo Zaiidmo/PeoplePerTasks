@@ -6,11 +6,10 @@
 
   <title>People Per Tasks</title>
   
-  <link href="/src/input.css" rel="stylesheet">
-  <link rel="stylesheet" href="/dist/home.css">
+  <link rel="stylesheet" href="../dist/home.css">
 
 </head>
-<body>
+<body class="bg-gray-300">
     <header>
     <nav class="bg-white border-gray-200 dark:bg-gray-900">
       <div
@@ -122,8 +121,8 @@
           <div class="max-w-screen-md mb-8 lg:mb-16">
               <h2 class="mb-4 text-2xl tracking-tight font-normal text-gray-900 dark:text-white lg:text-5xl">Recently Posted Works</h2>
           </div>
-          <div class="space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0">
-              <div class="w-auto">
+          <div class="space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-20 md:space-y-0">
+              <div class="w-64">
                   <div class="flex justify-between items-center content-center mb-4 w-fit h-fit rounded-full bg-primary-100 lg:h-fit lg:w-fit dark:bg-primary-900 bg-white lg:bg-white">
                       <img class="w-10 h-10 text-primary-600 lg:w-10 lg:h-10 dark:text-primary-300" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" src="../images/work1.png" alt="graphic Design"></img>
                       <h3 class=" text-xl font-bold dark:text-white ml-2">Logo Design</h3>
@@ -140,15 +139,54 @@
                     <h3 class=" text-xl font-bold dark:text-white ml-2">Graphic Design</h3>
                 </div>
                 <p class="text-gray-500 dark:text-gray-400">We need a graphic designer with UI/UX skills for our Furniture company</p>
-            </div>
-            <div>
-              <div class="flex justify-between items-center content-center mb-4 w-fit h-fit rounded-full bg-primary-100 lg:h-fit lg:w-fit dark:bg-primary-900 bg-white lg:bg-white">
-                  <img class="w-10 h-10 text-primary-600 lg:w-10 lg:h-10 dark:text-primary-300" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" src="../images/work3.png" alt="graphic Design"></img>
-                  <h3 class=" text-xl font-bold dark:text-white ml-2">Graphic Design</h3>
+                <button
+                  type="button"
+                  class="text-orange-600 hover:text-black focus:ring-4 focus:outline-none focus:ring-orange-300 font-medium rounded-3xl text-xl px-3 py-2 text-center ml-1 md:ml-1 mt-5 dark:focus:ring-orange-600 ">APPLY NOW
+                  </button>
               </div>
-              <p class="text-gray-500 dark:text-gray-400">Need a SEO for our company who will let our company to a higher level</p>
-          </div>
+              <div>
+                <div class="flex justify-between items-center content-center mb-4 w-fit h-fit rounded-full bg-primary-100 lg:h-fit lg:w-fit dark:bg-primary-900 bg-white lg:bg-white">
+                    <img class="w-10 h-10 text-primary-600 lg:w-10 lg:h-10 dark:text-primary-300" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" src="../images/work3.png" alt="graphic Design"></img>
+                    <h3 class=" text-xl font-bold dark:text-white ml-2">SEO EXPERT</h3>
+                </div>
+                <p class="text-gray-500 dark:text-gray-400 ">Need a SEO for our company who will let our company to a higher level</p>
+                <button
+                    type="button"
+                    class="text-orange-600 hover:text-black focus:ring-4 focus:outline-none focus:ring-orange-300 font-medium rounded-3xl text-xl px-3 py-2 text-center ml-1 md:ml-1 mt-5 dark:focus:ring-orange-600 ">APPLY NOW
+                    </button>
+              </div>
             </div>
+    </section>
+    <section class="bg-white dark:bg-gray-900">
+      <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-6">
+          <div class="mx-auto mb-8 max-w-screen-sm lg:mb-16">
+              <h2 class="mb-4 text-4xl lg:text-4xl tracking-tight font-light text-gray-900 dark:text-white">Checkout the most popular Freelancers.</h2>
+          </div> 
+          <div class="grid gap-8 lg:gap-16 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3">
+              <div class="text-center text-gray-500 dark:text-gray-400 bg-white h-full">
+                  <img class="mx-auto mb-4 w-36 h-36 rounded-full" src="../images/freelancer2.jpg" alt="Khalid">
+                  <h3 class="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                      <a href="#">Khalid</a>
+                  </h3>
+                  <p>Graphic Designer</p>
+              </div>
+              <div class="text-center text-gray-500 dark:text-gray-400">
+                  <img class="mx-auto mb-4 w-36 h-36 rounded-full" src="../images/freelancer3.jpg" alt="Yassine Louissi">
+                  <h3 class="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                      <a href="#">Yassine Louissi</a>
+                  </h3>
+                  <p>UI UX Designer</p>
+              </div>
+              <div class="text-center text-gray-500 dark:text-gray-400">
+                  <img class="mx-auto mb-4 w-36 h-36 rounded-full" src="../images/freelancer1.jpg" alt="Abdeljabbar">
+                  <h3 class="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                      <a href="#">Abdeljababr
+                      </a>
+                  </h3>
+                  <p>SEO & Marketing</p>
+              </div>
+            </div>  
+      </div>
     </section>
 
 
