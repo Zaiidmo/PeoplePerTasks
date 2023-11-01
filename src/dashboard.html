@@ -4,7 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="/dist/output.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link href="/dist/dashboard.css" rel="stylesheet">
     <title>Document</title>
 </head>
 
@@ -182,9 +186,108 @@
         </div>
     </aside>
 
-    <div class="p-4 sm:ml-64">
+    <main class=" mt-14 p-4 ml-0 sm:ml-64 dark:bg-gray-800 dark:border-gray-700">
+        <div class="cards flex flex-wrap justify-around gap-6 p-5">
+            <div class="card border border-[#D9D9DE] w-[20rem] p-5 rounded-xl">
+                <div class="icon_container mb-9">
+                    <span class="h-9 w-9 bg-[#CAFFF2] rounded-full flex justify-center
+                    items-center">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M17.5 5.83333L10 1.66667L2.5 5.83333V14.1667L10 18.3333L17.5 14.1667V5.83333ZM10 12.7778C11.5943 12.7778 12.8868 11.5341 12.8868 10C12.8868 8.46588 11.5943 7.22222 10 7.22222C8.40569 7.22222 7.11325 8.46588 7.11325 10C7.11325 11.5341 8.40569 12.7778 10 12.7778Z"
+                                stroke="#00373E" stroke-width="2" stroke-linejoin="round" />
+                        </svg>
+                    </span>
+                </div>
 
-    </div>
+
+                <div class="data_container flex justify-between">
+                    <div class="left">
+                        <p class="font-bold text-lg font-inter">32</p>
+                        <p class="font-medium text-[#7F7D83] font-inter">Offer Posted</p>
+                    </div>
+
+                    <div class="right pr-2 pl-2 bg-green-100 w-fit rounded-lg flex items-center border border-green-300">
+                        <span class="text-green-600 font-inter text-xl">+5.6%</span>
+                    </div>
+                </div>
+            </div>
+            <div class="card border border-[#D9D9DE] w-[20rem] p-5 rounded-xl">
+                <div class="icon_container mb-9">
+                    <span class="h-9 w-9 bg-[#FFD58F] rounded-full flex justify-center
+                    items-center">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M17.5 5.83333L10 1.66667L2.5 5.83333V14.1667L10 18.3333L17.5 14.1667V5.83333ZM10 12.7778C11.5943 12.7778 12.8868 11.5341 12.8868 10C12.8868 8.46588 11.5943 7.22222 10 7.22222C8.40569 7.22222 7.11325 8.46588 7.11325 10C7.11325 11.5341 8.40569 12.7778 10 12.7778Z"
+                                stroke="#B27104" stroke-width="2" stroke-linejoin="round" />
+                        </svg>
+                    </span>
+                </div>
+
+
+                <div class="data_container flex justify-between">
+                    <div class="left">
+                        <p class="font-bold text-lg font-inter">60</p>
+                        <p class="font-medium text-[#7F7D83] font-inter">Active Freelancers</p>
+                    </div>
+
+                    <div class="right pr-2 pl-2 bg-red-100 w-fit rounded-lg flex items-center border border-red-300">
+                        <span class="text-red-600 font-inter text-xl">-1.16%</span>
+                    </div>
+                </div>
+            </div>
+            <div class="card border border-[#D9D9DE] w-[20rem] p-5 rounded-xl">
+                <div class="icon_container mb-9">
+                    <span class="h-9 w-9 bg-[#EBF1FD] rounded-full flex justify-center
+                    items-center">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M17.5 5.83333L10 1.66667L2.5 5.83333V14.1667L10 18.3333L17.5 14.1667V5.83333ZM10 12.7778C11.5943 12.7778 12.8868 11.5341 12.8868 10C12.8868 8.46588 11.5943 7.22222 10 7.22222C8.40569 7.22222 7.11325 8.46588 7.11325 10C7.11325 11.5341 8.40569 12.7778 10 12.7778Z"
+                                stroke="#2080F6" stroke-width="2" stroke-linejoin="round" />
+                        </svg>
+                    </span>
+                </div>
+
+
+                <div class="data_container flex justify-between">
+                    <div class="left">
+                        <p class="font-bold text-lg font-inter">325</p>
+                        <p class="font-medium text-[#7F7D83] font-inter">Active Jobs</p>
+                    </div>
+
+                    <div class="right pr-2 pl-2 bg-green-100 w-fit rounded-lg flex items-center border border-green-300">
+                        <span class="text-green-600 font-inter text-xl">+10.05%</span>
+                    </div>
+                </div>
+            </div>
+            <div class="card border border-[#D9D9DE] w-[20rem] p-5 rounded-xl">
+                <div class="icon_container mb-9">
+                    <span class="h-9 w-9 bg-[#e7a4fa] rounded-full flex justify-center
+                    items-center">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M17.5 5.83333L10 1.66667L2.5 5.83333V14.1667L10 18.3333L17.5 14.1667V5.83333ZM10 12.7778C11.5943 12.7778 12.8868 11.5341 12.8868 10C12.8868 8.46588 11.5943 7.22222 10 7.22222C8.40569 7.22222 7.11325 8.46588 7.11325 10C7.11325 11.5341 8.40569 12.7778 10 12.7778Z"
+                                stroke="#802c98" stroke-width="2" stroke-linejoin="round" />
+                        </svg>
+                    </span>
+                </div>
+
+
+                <div class="data_container flex justify-between">
+                    <div class="left">
+                        <p class="font-bold text-lg font-inter">500</p>
+                        <p class="font-medium text-[#7F7D83] font-inter">Job Delivered</p>
+                    </div>
+
+                    <div class="right pr-2 pl-2 bg-green-100 w-fit rounded-lg flex items-center border border-green-300">
+                        <span class="text-green-600 font-inter text-xl">+9.3%</span>
+                    </div>
+                </div>
+            </div> 
+        </div>
+
+
+    </main>
 
     <script>
         // On page load or when changing themes, best to add inline in `head` to avoid FOUC
