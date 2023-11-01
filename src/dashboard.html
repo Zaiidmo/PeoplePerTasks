@@ -186,8 +186,8 @@
         </div>
     </aside>
 
-    <main class=" mt-14 p-4 ml-0 sm:ml-64 dark:bg-gray-800 dark:border-gray-700">
-        <div class="cards flex flex-wrap justify-around gap-6 p-5">
+    <main class=" mt-14 p-12 ml-0 sm:ml-64 dark:bg-gray-800 dark:border-gray-700">
+        <div class="cards flex flex-wrap justify-between gap-6 mb-12 ">
             <div class="card border border-[#D9D9DE] w-[20rem] p-5 rounded-xl">
                 <div class="icon_container mb-9">
                     <span class="h-9 w-9 bg-[#CAFFF2] rounded-full flex justify-center
@@ -207,7 +207,8 @@
                         <p class="font-medium text-[#7F7D83] font-inter">Offer Posted</p>
                     </div>
 
-                    <div class="right pr-2 pl-2 bg-green-100 w-fit rounded-lg flex items-center border border-green-300">
+                    <div
+                        class="right pr-2 pl-2 bg-green-100 w-fit rounded-lg flex items-center border border-green-300">
                         <span class="text-green-600 font-inter text-xl">+5.6%</span>
                     </div>
                 </div>
@@ -255,14 +256,15 @@
                         <p class="font-medium text-[#7F7D83] font-inter">Active Jobs</p>
                     </div>
 
-                    <div class="right pr-2 pl-2 bg-green-100 w-fit rounded-lg flex items-center border border-green-300">
+                    <div
+                        class="right pr-2 pl-2 bg-green-100 w-fit rounded-lg flex items-center border border-green-300">
                         <span class="text-green-600 font-inter text-xl">+10.05%</span>
                     </div>
                 </div>
             </div>
             <div class="card border border-[#D9D9DE] w-[20rem] p-5 rounded-xl">
                 <div class="icon_container mb-9">
-                    <span class="h-9 w-9 bg-[#e7a4fa] rounded-full flex justify-center
+                    <span class="h-9 w-9  rounded-full flex justify-center
                     items-center">
                         <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path fill-rule="evenodd" clip-rule="evenodd"
@@ -273,22 +275,32 @@
                 </div>
 
 
-                <div class="data_container flex justify-between">
+                <div class="data_container  flex justify-between">
                     <div class="left">
                         <p class="font-bold text-lg font-inter">500</p>
                         <p class="font-medium text-[#7F7D83] font-inter">Job Delivered</p>
                     </div>
 
-                    <div class="right pr-2 pl-2 bg-green-100 w-fit rounded-lg flex items-center border border-green-300">
+                    <div
+                        class="right pr-2 pl-2 bg-green-100 w-fit rounded-lg flex items-center border border-green-300">
                         <span class="text-green-600 font-inter text-xl">+9.3%</span>
                     </div>
                 </div>
-            </div> 
+            </div>
+        </div>
+
+        <div class="border border-[#D9D9DE] rounded-xl p-8">
+            <span class="text-[#00373E] font-inter font-semibold text-lg block mb-5">Popular Categories of Jobs </span>
+
+            <div class="h-[32rem] w-auto">
+                <canvas class="h-[50%]" id="myChart"></canvas>
+            </div>
         </div>
 
 
     </main>
 
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script>
         // On page load or when changing themes, best to add inline in `head` to avoid FOUC
         if (localStorage.getItem('color-theme') === 'dark' || (!('color-theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
@@ -349,6 +361,101 @@
             }
 
         });
+
+
+
+        const data = {
+            labels: ["Jan",
+                "Feb",
+                "Mar",
+                "Apr",
+                "may",
+                "jun",
+                "jul",],
+            datasets: [{
+                axis: 'x',
+                label: 'Design',
+                data: [40, 80, 20, 40, 180, 10, 70],
+                fill: false,
+                backgroundColor: [
+                    'rgb(255, 99, 132)',
+                ], borderColor: [
+                    'rgb(255, 99, 132)',
+                ],
+                borderWidth: 2
+            },
+            {
+                axis: 'x',
+                label: 'Writing',
+                data: [60, 60, 120, 80, 100, 30, 80],
+                fill: false,
+                backgroundColor: [
+                    'rgb(255, 205, 86)',
+                ], borderColor: [
+                    'rgb(255, 205, 86)',
+                ],
+                borderWidth: 2
+            },
+            {
+                axis: 'x',
+                label: 'Video editing',
+                data: [100, 80, 160, 10, 30, 50, 160],
+                fill: false,
+                backgroundColor: [
+                    'rgb(96,60,217)',
+                ], borderColor: [
+                    'rgb(96,60,217)',
+
+                ],
+                borderWidth: 2
+            },
+            {
+                axis: 'x',
+                label: 'Marketing',
+                data: [180, 60, 80, 30, 50, 180, 100],
+                fill: false,
+                backgroundColor: [
+                    'rgb(90,192,70)',
+                ], borderColor: [
+                    ' rgb(90,192,70)',
+                ],
+                borderWidth: 2
+            },
+            {
+                axis: 'x',
+                label: 'Marketing',
+                data: [10, 50, 20, 150, 30, 140, 60],
+                fill: false,
+                backgroundColor: [
+                    'rgb(231,164,250)',
+                ], borderColor: [
+                    'rgb(231,164,250)',
+                ],
+                borderWidth: 2
+            }
+
+            ]
+        };
+
+        const config = {
+            type: 'line',
+            data: data,
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                indexAxis: 'x',
+                scales: {
+                    x: {
+                        beginAtZero: true
+                    }
+                }
+            }
+        };
+
+        const ctx = document.getElementById('myChart').getContext('2d');
+
+        new Chart(ctx, config);
+
     </script>
 </body>
 
