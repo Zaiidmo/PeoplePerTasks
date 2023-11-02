@@ -10,14 +10,14 @@ function changeAtiveTab(event,tabID){
       aElements[i].classList.remove("text-white");
       aElements[i].classList.remove("bg-orange-600");
       aElements[i].classList.add("text-orange-600");
-      aElements[i].classList.add("bg-white");
-      aElements[i].classList.add("dark:bg-gray-800");
+      aElements[i].classList.add("bg-gray-100");
+      aElements[i].classList.add("dark:bg-gray-900");
       tabContents[i].classList.add("hidden");
       tabContents[i].classList.remove("block");
     }
     element.classList.remove("text-orange-600");
-    element.classList.remove("bg-white");
-    element.classList.remove("dark:bg-gray-800");
+    element.classList.remove("bg-gray-100");
+    element.classList.remove("dark:bg-gray-900");
     element.classList.add("text-white");
     element.classList.add("bg-orange-600");
     document.getElementById(tabID).classList.remove("hidden");

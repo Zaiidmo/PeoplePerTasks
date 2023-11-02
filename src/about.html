@@ -9,26 +9,28 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.0.0/flowbite.min.css"
       rel="stylesheet"
     />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.0.0/flowbite.min.js"></script>
   </head>
-  <body class="dark:bg-gray-900">
+  <body class="bg-gray-100 dark:bg-gray-900">
     <header>
       <nav
-        class="bg-white border-gray-200 px-4 lg:px-6 py-2.5 dark:bg-gray-900"
+        class="bg-white border-gray-200 px-4 lg:px-6 py-2.5 dark:bg-gray-800"
       >
         <div
           class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl"
         >
-          <a href="../src/index.html" class="flex items-center">
-            <img
-              src="../images/peoplepertask-high-resolution-logo-transparent.webp"
-              class="mr-3 h-6 sm:h-9"
-              alt="peoplepertask Logo"
-            />
-          </a>
+        <a href="../src/index.html" class="flex items-center">
+          <img
+            src="../images/logo.webp"
+            class="mr-3 h-6 sm:h-9"
+            alt="peoplepertask Logo"
+          />
+          <span class="self-center hidden sm:block font-semibold whitespace-nowrap dark:text-white">People Per Tasks</span>
+        </a>
           <div class="flex items-center lg:order-2">
             <a
               href="../src/login.html"
-              class="text-gray-900 dark:text-white hover:bg-gray-50 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 dark:hover:bg-gray-700 focus:outline-none dark:focus:ring-gray-800"
+              class="text-gray-900 dark:text-white hover:bg-gray-200 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 dark:hover:bg-gray-700 focus:outline-none dark:focus:ring-gray-800"
               >Log in</a
             >
             <a
@@ -110,7 +112,7 @@
               <li>
                 <a
                   href="../src/index.html"
-                  class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
+                  class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-200 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
                   aria-current="page"
                   >Home
                 </a>
@@ -182,14 +184,14 @@
               <li>
                 <a
                   href="../src/marketplace.html"
-                  class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
+                  class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-200 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
                   >Market Place</a
                 >
               </li>
               <li>
                 <a
                   href="../src/contact.html"
-                  class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
+                  class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-200 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
                   >Contact</a
                 >
               </li>
@@ -208,7 +210,7 @@
         <ul class="flex mb-0 list-none flex-wrap pb-4 flex-row">
           <li class="-mb-px mr-2 last:mr-0 flex-auto text-center">
             <a
-              class="text-xs font-bold px-5 uppercase py-3 block leading-normal text-white bg-orange-600 dark:bg-gray-900 cursor-pointer"
+              class="text-xs font-bold px-5 uppercase py-3 block leading-normal text-white bg-orange-600 dark:bg-orange-600 cursor-pointer"
               onclick="changeAtiveTab(event,'tab-profile')"
             >
               Who We Are
@@ -216,7 +218,7 @@
           </li>
           <li class="-mb-px mr-2 last:mr-0 flex-auto text-center">
             <a
-              class="text-xs font-bold px-5 uppercase py-3 block leading-normal text-orange-600 bg-white dark:bg-gray-900 cursor-pointer"
+              class="text-xs font-bold px-5 uppercase py-3 block leading-normal text-orange-600 bg-gray-100 dark:bg-gray-900 cursor-pointer"
               onclick="changeAtiveTab(event,'tab-settings')"
             >
               Our Value System
@@ -224,7 +226,7 @@
           </li>
           <li class="-mb-px mr-2 last:mr-0 flex-auto text-center">
             <a
-              class="text-xs font-bold px-5 uppercase py-3 block leading-normal text-orange-600 bg-white dark:bg-gray-900 cursor-pointer"
+              class="text-xs font-bold px-5 uppercase py-3 block leading-normal text-orange-600 bg-gray-100 dark:bg-gray-900 cursor-pointer"
               onclick="changeAtiveTab(event,'tab-options')"
             >
               Meet the Team
@@ -232,7 +234,7 @@
           </li>
         </ul>
         <div
-          class="relative flex flex-col min-w-0 break-words bg-white dark:bg-gray-900 w-full mb-6 rounded"
+          class="relative flex flex-col min-w-0 break-words bg-gray-100 dark:bg-gray-900 w-full mb-6 rounded"
         >
           <div class="px-4 py-5 flex-auto">
             <div class="tab-content tab-space">
@@ -355,7 +357,7 @@
                     />
                   </div>
                 </section>
-                <section class="bg-white dark:bg-gray-900">
+                <section>
                   <div class="container max-w-4xl px-6 py-10 mx-auto">
                     <h2
                       class="mb-4 text-3xl tracking-tight font-bold text-center text-gray-900 dark:text-white"
@@ -368,7 +370,7 @@
                         open
                       >
                         <summary
-                          class="flex cursor-pointer items-center justify-between gap-1.5 rounded-lg bg-gray-50 p-4 text-gray-900 dark:text-white dark:bg-gray-800"
+                          class="flex cursor-pointer items-center justify-between gap-1.5 rounded-lg bg-gray-200 p-4 text-gray-900 dark:text-white dark:bg-gray-800"
                         >
                           <h2 class="font-medium">
                             Do you accept Paypal?
@@ -399,7 +401,7 @@
                         class="group [&_summary::-webkit-details-marker]:hidden"
                       >
                         <summary
-                          class="flex cursor-pointer items-center justify-between gap-1.5 rounded-lg bg-gray-50 p-4 text-gray-900 dark:text-white dark:bg-gray-800"
+                          class="flex cursor-pointer items-center justify-between gap-1.5 rounded-lg bg-gray-200 p-4 text-gray-900 dark:text-white dark:bg-gray-800"
                         >
                           <h2 class="font-medium">
                             What is your SLA Guarantee ?
@@ -429,7 +431,7 @@
                         class="group [&_summary::-webkit-details-marker]:hidden"
                       >
                         <summary
-                          class="flex cursor-pointer items-center justify-between gap-1.5 rounded-lg bg-gray-50 p-4 text-gray-900 dark:text-white dark:bg-gray-800"
+                          class="flex cursor-pointer items-center justify-between gap-1.5 rounded-lg bg-gray-200 p-4 text-gray-900 dark:text-white dark:bg-gray-800"
                         >
                           <h2 class="font-medium">
                             Can I refund my money?
@@ -660,8 +662,8 @@
                     <div class="text-center text-gray-500 dark:text-gray-400">
                       <img
                         class="mx-auto mb-4 w-36 h-36 rounded-full"
-                        src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png"
-                        alt="Bonnie Avatar"
+                        src="../images/team_ismail.jpg"
+                        alt="ismail Avatar"
                       />
                       <h3
                         class="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
@@ -754,8 +756,8 @@
                     <div class="text-center text-gray-500 dark:text-gray-400">
                       <img
                         class="mx-auto mb-4 w-36 h-36 rounded-full"
-                        src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/helene-engels.png"
-                        alt="Helene Avatar"
+                        src="../images/team_ziad.jpg"
+                        alt="zaiid Avatar"
                       />
                       <h3
                         class="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
@@ -846,8 +848,8 @@
                     <div class="text-center text-gray-500 dark:text-gray-400">
                       <img
                         class="mx-auto mb-4 w-36 h-36 rounded-full"
-                        src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/jese-leos.png"
-                        alt="Jese Avatar"
+                        src="../images/team_soulaiman.jpg"
+                        alt="soulaiman Avatar"
                       />
                       <h3
                         class="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
@@ -940,7 +942,7 @@
                     <div class="text-center text-gray-500 dark:text-gray-400">
                       <img
                         class="mx-auto mb-4 w-36 h-36 rounded-full"
-                        src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/joseph-mcfall.png"
+                        src="../images/team_basma.jpg"
                         alt="Joseph Avatar"
                       />
                       <h3
@@ -1037,7 +1039,7 @@
         </div>
       </div>
     </main>
-    <footer class="p-4 bg-white sm:p-6 dark:bg-gray-900 mt-10">
+    <footer class="p-4 bg-white sm:p-6 dark:bg-gray-800 mt-10">
       <div class="mx-auto max-w-screen-xl">
         <div class="md:flex md:justify-between">
           <div class="mb-6 md:mb-0">
@@ -1220,7 +1222,6 @@
         </div>
       </div>
     </footer>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.0.0/flowbite.min.js"></script>
     <script src="../js/theme.js"></script>
     <script src="../js/tab.js"></script>
   </body>
