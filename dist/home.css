@@ -1137,6 +1137,10 @@ video {
   background-color: rgb(249 250 251 / var(--tw-bg-opacity));
 }
 
+.bg-transparent {
+  background-color: transparent;
+}
+
 .bg-opacity-50 {
   --tw-bg-opacity: 0.5;
 }
@@ -1254,6 +1258,18 @@ video {
   padding-top: 0.5rem;
 }
 
+.pt-8 {
+  padding-top: 2rem;
+}
+
+.pt-10 {
+  padding-top: 2.5rem;
+}
+
+.pb-8 {
+  padding-bottom: 2rem;
+}
+
 .text-left {
   text-align: left;
 }
@@ -1324,6 +1340,10 @@ video {
 
 .font-semibold {
   font-weight: 600;
+}
+
+.font-thin {
+  font-weight: 100;
 }
 
 .uppercase {
