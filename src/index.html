@@ -102,12 +102,10 @@
           </button>
         </div>
         <div
-          class="hidden justify-between items-center w-full lg:flex lg:w-auto lg:order-1"
+          class="hidden justify-between items-center w-full lg:flex lg:w-auto lg:order-1 duration-1000"
           id="mobile-menu-2"
         >
-          <ul
-            class="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0"
-          >
+          <ul class="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
             <li>
               <a
                 href="#"
@@ -163,7 +161,7 @@
     </section>
     <section class=" dark:bg-gray-900 recent-works">
       <div class=" flex flex-col items-center py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
-          <h2 class="mb-12 text-2xl self-start tracking-tight font-normal text-gray-900 dark:text-white lg:text-5xl">Recently posted works</h2>
+          <h2 class="mb-12 text-2xl self-start tracking-tight font-normal text-[#00373E] dark:text-white lg:text-5xl">Recently posted works</h2>
           <div class="grid gap-6 lg:gap-16 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 items-center">
               <div class="w-64 bg-white p-8 rounded-lg dark:bg-gray-800 shadow-md">
                   <div class="flex justify-between items-center content-center mb-4 w-fit h-fit rounded-full lg:h-fit lg:w-fit  ">
@@ -202,7 +200,7 @@
     </section>
     <section class="dark:bg-gray-900 categories">
       <div class=" flex flex-col items-center py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
-        <h2 class="mb-12 text-2xl self-start tracking-tight font-normal text-gray-900 dark:text-white lg:text-5xl">Most Popular categories</h2>
+        <h2 class="mb-12 text-2xl self-start tracking-tight font-normal text-[#00373E] dark:text-white lg:text-5xl">Most Popular categories</h2>
         <div class="grid gap-6 lg:gap-10 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 items-center">
           <div class="shadow-md">
             <a href="#" class="block w-full h-50 relative rounded-2xl overflow-hidden">
@@ -249,7 +247,7 @@
     </section>
     <section class=" dark:bg-gray-900 freelancers">
       <div class=" flex flex-col items-center py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6 ">
-        <h2 class="self-start mb-12 text-xl tracking-tight font-normal text-gray-900 dark:text-white lg:text-5xl">Check out the most popular freelancers</h2>
+        <h2 class="self-start mb-12 text-xl tracking-tight font-normal text-[#00373E] dark:text-white lg:text-5xl">Check out the most popular freelancers</h2>
         <div class="grid gap-6 lg:gap-16 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 items-center">
             <div class="text-center text-gray-500 dark:text-gray-400 bg-white dark:bg-gray-800 py-12 px-12 w-64 rounded-xl shadow-md">
               <img class="mx-auto mb-4 w-36 h-36 rounded-full" src="../images/freelancer2.jpg" alt="Khalid Oukha">
@@ -276,21 +274,20 @@
         </div>  
       </div>
     </section>
-    <!-- <section class="dark:bg-gray-900 Testimonials">
-      <div class=" flex flex-col items-center py-8 px-8 mx-auto max-w-screen-xl lg:py-16 lg:px-6 ">
-        <div class="grid grid-cols-1 gap-8 lg:grid-cols-3 lg:items-center lg:gap-16 ">
-          <div class="max-w-xl text-left ">
-            <h2 class="text-3xl font-bold tracking-wider text-gray-900 sm:text-4xl self-start">
-              What our custumers are saying ?
+    <section class="dark:bg-gray-900 Testimonials">
+      <div class=" flex flex-col justify-evenly sm:flex-row lg:flex-row items-center py-8 px-8 mx-auto max-w-screen-xl lg:px-6 ">
+          <div class="text-left w-96 ">
+            <h2 class=" text-3xl font-bold tracking-widest leading-loose text-[#00373E] dark:text-white sm:text-3xl sm:leading-loose">
+              What our customers are saying ?
             </h2>
-            <p class="mt-4 text-gray-600">
+            <p class="mt-7 sm:leading-10 text-gray-600 ">
               Doesn't matter if you're a freelancer or just a client looking for a task to be done ... “PeoplePerTasks” makes everything happen.
             </p>
             <div class="hidden lg:mt-8 lg:flex lg:gap-4">
               <button
                 aria-label="previous slide"
                 id="previous"
-                class="rounded-full border border-black p-3 text-black transition hover:bg-[#00373E] hover:text-white">
+                class="rounded-full border border-black p-3 text-black transition dark:border-white dark:text-white hover:bg-[#00373E] hover:text-white">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -309,8 +306,7 @@
               <button
                 aria-label="Next slide"
                 id="next"
-                class="rounded-full border border-black p-3 text-black transition hover:bg-[#00373E] hover:text-white"
-              >
+                class="rounded-full border border-black p-3 text-black transition dark:border-white dark:text-white hover:bg-[#00373E] hover:text-white">
                 <svg
                   class="h-5 w-5 rtl:rotate-180"
                   fill="none"
@@ -328,204 +324,34 @@
               </button>
             </div>
           </div>
-    
-          <div class="-mx-6 lg:col-span-2 lg:mx-0">
-            <div id="keen-slider" class="keen-slider">
-              <div class="keen-slider__slide">
-                <blockquote
-                  class="flex h-full flex-col justify-between bg-white p-6 shadow-sm sm:p-8 lg:p-12"
+          <div class="-mx-6 lg:col-span-2 lg:mx-0 self-center" id="client">
+            <div id="clients_slider" class="clients">
+              <div class="client">
+                <div
+                  class="flex h-fit flex-col justify-between bg-white dark:bg-gray-800 p-6  rounded-2xl shadow-sm w-96  sm:p-8 lg:p-12"
                 >
                   <div> 
-                    <img src="../images/client1.jpg" alt="" class="mb-4 rounded-full w-11 h-11">
-                    <div class="mt-4">
-                      <p class="text-2xl font-bold text-rose-600 sm:text-3xl">
-                        Stayin' Alive
-                      </p>
-                      <p class="mt-4 leading-relaxed text-gray-700">
-                        No, Rose, they are not breathing. And they have no arms or
-                        legs … Where are they? You know what? If we come across
-                        somebody with no arms or legs, do we bother resuscitating
-                        them? I mean, what quality of life do we have there?
-                      </p>
+                    <div class="flex items-center ">
+                      <img src="../images/client1.jpg" alt="Aymane Benhima" class="mb-4 rounded-full w-11 h-11">
+                      <div class="flex flex-col mb-4 ml-8">
+                        <h3 class="dark:text-white">Aymane Benhima</h3>
+                        <p class="text-gray-800 dark:text-gray-400">Front-End Developer</p>
+                      </div>
                     </div>
+                    <p class="mt-4 leading-relaxed text-gray-700 dark:text-gray-400">
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic repellendus omnis ad sunt culpa odio cupiditate libero velit praesentium excepturi. Repellendus reprehenderit sit dolorum praesentium soluta sint consequatur minus eligendi.
+                    </p>
                   </div>
-    
-                  
-                </blockquote>
-              </div>
-    
-              <div class="keen-slider__slide">
-                <blockquote
-                  class="flex h-full flex-col justify-between bg-white p-6 shadow-sm sm:p-8 lg:p-12"
-                >
-                  <div>
-                    <div class="flex gap-0.5 text-green-500">
-                      <svg
-                        class="h-5 w-5"
-                        fill="currentColor"
-                        viewBox="0 0 20 20"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
-                        />
-                      </svg>
-    
-                      <svg
-                        class="h-5 w-5"
-                        fill="currentColor"
-                        viewBox="0 0 20 20"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
-                        />
-                      </svg>
-    
-                      <svg
-                        class="h-5 w-5"
-                        fill="currentColor"
-                        viewBox="0 0 20 20"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
-                        />
-                      </svg>
-    
-                      <svg
-                        class="h-5 w-5"
-                        fill="currentColor"
-                        viewBox="0 0 20 20"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
-                        />
-                      </svg>
-    
-                      <svg
-                        class="h-5 w-5"
-                        fill="currentColor"
-                        viewBox="0 0 20 20"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
-                        />
-                      </svg>
-                    </div>
-    
-                    <div class="mt-4">
-                      <p class="text-2xl font-bold text-rose-600 sm:text-3xl">
-                        Stayin' Alive
-                      </p>
-    
-                      <p class="mt-4 leading-relaxed text-gray-700">
-                        No, Rose, they are not breathing. And they have no arms or
-                        legs … Where are they? You know what? If we come across
-                        somebody with no arms or legs, do we bother resuscitating
-                        them? I mean, what quality of life do we have there?
-                      </p>
-                    </div>
-                  </div>
-    
-                  <footer class="mt-4 text-sm font-medium text-gray-700 sm:mt-6">
-                    &mdash; Michael Scott
-                  </footer>
-                </blockquote>
-              </div>
-    
-              <div class="keen-slider__slide">
-                <blockquote
-                  class="flex h-full flex-col justify-between bg-white p-6 shadow-sm sm:p-8 lg:p-12"
-                >
-                  <div>
-                    <div class="flex gap-0.5 text-green-500">
-                      <svg
-                        class="h-5 w-5"
-                        fill="currentColor"
-                        viewBox="0 0 20 20"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
-                        />
-                      </svg>
-    
-                      <svg
-                        class="h-5 w-5"
-                        fill="currentColor"
-                        viewBox="0 0 20 20"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
-                        />
-                      </svg>
-    
-                      <svg
-                        class="h-5 w-5"
-                        fill="currentColor"
-                        viewBox="0 0 20 20"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
-                        />
-                      </svg>
-    
-                      <svg
-                        class="h-5 w-5"
-                        fill="currentColor"
-                        viewBox="0 0 20 20"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
-                        />
-                      </svg>
-    
-                      <svg
-                        class="h-5 w-5"
-                        fill="currentColor"
-                        viewBox="0 0 20 20"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
-                        />
-                      </svg>
-                    </div>
-    
-                    <div class="mt-4">
-                      <p class="text-2xl font-bold text-rose-600 sm:text-3xl">
-                        Stayin' Alive
-                      </p>
-    
-                      <p class="mt-4 leading-relaxed text-gray-700">
-                        No, Rose, they are not breathing. And they have no arms or
-                        legs … Where are they? You know what? If we come across
-                        somebody with no arms or legs, do we bother resuscitating
-                        them? I mean, what quality of life do we have there?
-                      </p>
-                    </div>
-                  </div>
-    
-                  <footer class="mt-4 text-sm font-medium text-gray-700 sm:mt-6">
-                    &mdash; Michael Scott
-                  </footer>
-                </blockquote>
+                </div>
               </div>
             </div>
           </div>
-        </div>
     
         <div class="mt-8 flex justify-center gap-4 lg:hidden">
           <button
             aria-label="Previous slide"
-            id="keen-slider-previous"
-            class="rounded-full border border-rose-600 p-4 text-rose-600 transition hover:bg-rose-600 hover:text-white"
+            id="previous"
+            class="rounded-full border border-black p-4 text-black transition dark:border-white dark:text-white hover:bg-[#00373E] hover:text-white"
           >
             <svg
               class="h-5 w-5 -rotate-180 transform"
@@ -542,11 +368,10 @@
               />
             </svg>
           </button>
-    
           <button
             aria-label="Next slide"
-            id="keen-slider-next"
-            class="rounded-full border border-rose-600 p-4 text-rose-600 transition hover:bg-rose-600 hover:text-white"
+            id="next"
+            class="rounded-full border border-black p-4 text-black transition dark:border-white dark:text-white hover:bg-[#00373E] hover:text-white"
           >
             <svg
               class="h-5 w-5"
@@ -565,8 +390,7 @@
           </button>
         </div>
       </div>
-    </section> -->
-    
+    </section>
     
 <footer class="p-4 bg-white sm:p-6 dark:bg-gray-800">
       <div class="mx-auto max-w-screen-xl">
@@ -756,5 +580,6 @@
       </div>
 </footer>
 <script src="../js/theme.js"></script>
+<script src="../js/navbar.js"></script>
 </body>
 </html>
