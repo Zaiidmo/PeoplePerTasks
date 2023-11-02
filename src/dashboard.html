@@ -4,15 +4,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="keywords" content="HTML, CSS, Youcode, tailwindCSS, Youssoufia">
+    <meta name="author" content="Soulaiman Bouhlal">
+    <meta name="description" content="this page is an html project was given in a bootcamp">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;500;600;700;800&display=swap"
         rel="stylesheet">
     <link href="/dist/dashboard.css" rel="stylesheet">
-    <title>Document</title>
+    <title>Dashboard - peoplepertask</title>
 </head>
 
-<body>
+<body class="dark:bg-gray-900">
 
     <nav class="fixed top-0 z-50 w-full bg-white border-b border-gray-200 dark:bg-gray-800 dark:border-gray-700">
         <div class="px-3 py-3 lg:px-5 lg:pl-3">
@@ -31,9 +35,10 @@
                         </svg>
                     </button>
 
-                    <a href="/" class="flex ml-2 md:mr-24">
-                        <img src="/images/peoplepertask-high-resolution-logo-transparent.webp" class="h-8 mr-6"
+                    <a href="/" class="flex ml-2 md:mr-24  items-center">
+                        <img src="/images/logo.webp" class="h-8 mr-6"
                             alt="peoplepertask Logo" />
+                            <span class="font-inter font-semibold dark:text-white">PeaplePerTask</span>
                     </a>
                 </div>
 
@@ -83,14 +88,14 @@
                             </ul>
                         </div>
 
-                        <button class="ml-5" id="theme-toggle" type="button"
+                        <button class="ml-5" aria-label="theme toggle" id="theme-toggle" type="button"
                             class="text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5">
-                            <svg id="theme-toggle-dark-icon" class="hidden w-5 h-5" fill="currentColor"
-                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <svg id="theme-toggle-dark-icon" class="hidden w-5 h-5 dark:text-gray-400"
+                                fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path>
                             </svg>
-                            <svg id="theme-toggle-light-icon" class="hidden w-5 h-5" fill="currentColor"
-                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <svg id="theme-toggle-light-icon" class="hidden w-5 h-5 dark:text-gray-200"
+                                fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                                 <path
                                     d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z"
                                     fill-rule="evenodd" clip-rule="evenodd"></path>
@@ -103,20 +108,35 @@
     </nav>
 
     <aside id="logo-sidebar"
-        class="fixed top-0 left-0 z-40 w-64 h-screen pt-20 transition-transform -translate-x-full  bg-white border-r border-gray-200 sm:translate-x-0 dark:bg-gray-800 dark:border-gray-700"
+        class="fixed top-0 left-0 z-40 w-64 h-screen pt-20 transition-transform -translate-x-full  bg-white border-r border-gray-200 dark:border-gray-800 sm:translate-x-0 dark:bg-gray-800 "
         aria-label="Sidebar">
         <div class="h-full px-3 pb-4 overflow-y-auto bg-white dark:bg-gray-800">
             <ul class="space-y-2 font-medium">
                 <li>
                     <a href="#"
-                        class="flex items-center p-2 text-white rounded-lg bg-orange-600  dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group ">
+                        class="flex items-center p-2 text-white hover:text-gray-900 rounded-lg bg-orange-600  dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group ">
                         <svg class="w-5 h-5 text-white transition duration-75 dark:text-white group-hover:text-gray-900 dark:group-hover:text-white"
                             width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path
                                 d="M2 6.27737C2 6.0311 2.12534 5.80007 2.33638 5.65735L7.53638 2.14078C7.81395 1.95307 8.18605 1.95307 8.46362 2.14078L13.6636 5.65735C13.8747 5.80007 14 6.0311 14 6.27737V12.8588C14 13.4891 13.4627 14 12.8 14H3.2C2.53726 14 2 13.4891 2 12.8588V6.27737Z"
                                 stroke="currentColor" stroke-width="2" />
                         </svg>
-                        <span class="ml-3">Dashboard</span>
+                        <span class="ml-3 font-inter ">Dashboard</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="./freelancers.html"
+                        class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
+
+                        <svg class="flex-shrink-0 w-5 h-5 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white"
+                            width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M2.15845 13C3.04205 11.5262 4.97863 10.5175 7.99996 10.5175C11.0213 10.5175 12.9579 11.5262 13.8415 13M10.4 5.4C10.4 6.72548 9.32545 7.8 7.99996 7.8C6.67448 7.8 5.59996 6.72548 5.59996 5.4C5.59996 4.07452 6.67448 3 7.99996 3C9.32545 3 10.4 4.07452 10.4 5.4Z"
+                                stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
+                        </svg>
+
+                        <span class="flex-1 ml-3 whitespace-nowrap font-inter">Freelancers</span>
                     </a>
                 </li>
 
@@ -132,7 +152,7 @@
                                 stroke-linejoin="round" />
                         </svg>
 
-                        <span class="flex-1 ml-3 whitespace-nowrap">Order</span>
+                        <span class="flex-1 ml-3 whitespace-nowrap font-inter">Order</span>
                     </a>
                 </li>
 
@@ -151,22 +171,7 @@
 
 
 
-                        <span class="flex-1 ml-3 whitespace-nowrap">Offers</span>
-                    </a>
-                </li>
-
-                <li>
-                    <a href="#"
-                        class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
-
-                        <svg class="flex-shrink-0 w-5 h-5 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white"
-                            width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path
-                                d="M2.15845 13C3.04205 11.5262 4.97863 10.5175 7.99996 10.5175C11.0213 10.5175 12.9579 11.5262 13.8415 13M10.4 5.4C10.4 6.72548 9.32545 7.8 7.99996 7.8C6.67448 7.8 5.59996 6.72548 5.59996 5.4C5.59996 4.07452 6.67448 3 7.99996 3C9.32545 3 10.4 4.07452 10.4 5.4Z"
-                                stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
-                        </svg>
-
-                        <span class="flex-1 ml-3 whitespace-nowrap">Freelancers</span>
+                        <span class="flex-1 ml-3 whitespace-nowrap font-inter">Offers</span>
                     </a>
                 </li>
 
@@ -178,7 +183,7 @@
                             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                 d="M1 8h11m0 0L8 4m4 4-4 4m4-11h3a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-3" />
                         </svg>
-                        <span class="flex-1 ml-3 whitespace-nowrap">Sign In</span>
+                        <span class="flex-1 ml-3 whitespace-nowrap font-inter">Sign In</span>
                     </a>
                 </li>
 
@@ -186,9 +191,10 @@
         </div>
     </aside>
 
-    <main class=" mt-14 p-12 ml-0 sm:ml-64 dark:bg-gray-800 dark:border-gray-700">
+    <main class=" mt-14 p-12 ml-0 sm:ml-64  dark:border-gray-700">
         <div class="cards flex flex-wrap justify-between gap-6 mb-12 ">
-            <div class="card border border-[#D9D9DE] w-[20rem] p-5 rounded-xl">
+            <div
+                class="bg-white dark:bg-gray-800 card border border-[#D9D9DE] dark:border-gray-700  w-[20rem] p-5 rounded-xl">
                 <div class="icon_container mb-9">
                     <span class="h-9 w-9 bg-[#CAFFF2] rounded-full flex justify-center
                     items-center">
@@ -199,21 +205,20 @@
                         </svg>
                     </span>
                 </div>
-
-
                 <div class="data_container flex justify-between">
                     <div class="left">
-                        <p class="font-bold text-lg font-inter">32</p>
+                        <p class="font-bold dark:text-gray-200 text-lg font-inter">32</p>
                         <p class="font-medium text-[#7F7D83] font-inter">Offer Posted</p>
                     </div>
 
                     <div
                         class="right pr-2 pl-2 bg-green-100 w-fit rounded-lg flex items-center border border-green-300">
-                        <span class="text-green-600 font-inter text-xl">+5.6%</span>
+                        <span class="text-green-800 font-inter text-xl">+5.6%</span>
                     </div>
                 </div>
             </div>
-            <div class="card border border-[#D9D9DE] w-[20rem] p-5 rounded-xl">
+            <div
+                class="bg-white dark:bg-gray-800 card border border-[#D9D9DE] dark:border-gray-700 w-[20rem] p-5 rounded-xl">
                 <div class="icon_container mb-9">
                     <span class="h-9 w-9 bg-[#FFD58F] rounded-full flex justify-center
                     items-center">
@@ -228,16 +233,17 @@
 
                 <div class="data_container flex justify-between">
                     <div class="left">
-                        <p class="font-bold text-lg font-inter">60</p>
+                        <p class="font-bold dark:text-gray-200  text-lg font-inter">60</p>
                         <p class="font-medium text-[#7F7D83] font-inter">Active Freelancers</p>
                     </div>
 
                     <div class="right pr-2 pl-2 bg-red-100 w-fit rounded-lg flex items-center border border-red-300">
-                        <span class="text-red-600 font-inter text-xl">-1.16%</span>
+                        <span class="text-red-800 font-inter text-xl">-1.16%</span>
                     </div>
                 </div>
             </div>
-            <div class="card border border-[#D9D9DE] w-[20rem] p-5 rounded-xl">
+            <div
+                class="bg-white dark:bg-gray-800 card border border-[#D9D9DE] dark:border-gray-700 w-[20rem] p-5 rounded-xl">
                 <div class="icon_container mb-9">
                     <span class="h-9 w-9 bg-[#EBF1FD] rounded-full flex justify-center
                     items-center">
@@ -252,17 +258,18 @@
 
                 <div class="data_container flex justify-between">
                     <div class="left">
-                        <p class="font-bold text-lg font-inter">325</p>
+                        <p class="font-bold dark:text-gray-200  text-lg font-inter">325</p>
                         <p class="font-medium text-[#7F7D83] font-inter">Active Jobs</p>
                     </div>
 
                     <div
                         class="right pr-2 pl-2 bg-green-100 w-fit rounded-lg flex items-center border border-green-300">
-                        <span class="text-green-600 font-inter text-xl">+10.05%</span>
+                        <span class="text-green-800 font-inter text-xl">+10.05%</span>
                     </div>
                 </div>
             </div>
-            <div class="card border border-[#D9D9DE] w-[20rem] p-5 rounded-xl">
+            <div
+                class="bg-white dark:bg-gray-800 card border border-[#D9D9DE] dark:border-gray-700 w-[20rem] p-5 rounded-xl">
                 <div class="icon_container mb-9">
                     <span class="h-9 w-9  rounded-full flex justify-center
                     items-center">
@@ -277,30 +284,39 @@
 
                 <div class="data_container  flex justify-between">
                     <div class="left">
-                        <p class="font-bold text-lg font-inter">500</p>
+                        <p class="font-bold dark:text-gray-200  text-lg font-inter">500</p>
                         <p class="font-medium text-[#7F7D83] font-inter">Job Delivered</p>
                     </div>
 
                     <div
                         class="right pr-2 pl-2 bg-green-100 w-fit rounded-lg flex items-center border border-green-300">
-                        <span class="text-green-600 font-inter text-xl">+9.3%</span>
+                        <span class="text-green-800 font-inter text-xl">+9.3%</span>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="border border-[#D9D9DE] rounded-xl p-8">
-            <span class="text-[#00373E] font-inter font-semibold text-lg block mb-5">Popular Categories of Jobs </span>
-
+        <div class="bg-white  dark:bg-gray-800 border border-[#D9D9DE] dark:border-gray-700 rounded-xl p-8 mb-12 ">
+            <span class="text-[#00373E] dark:text-gray-200  font-inter font-semibold text-lg block mb-5">Popular
+                Categories of Jobs </span>
             <div class="h-[32rem] w-auto">
-                <canvas class="h-[50%]" id="myChart"></canvas>
+                <canvas id="myChart"></canvas>
             </div>
+        </div>
+
+        <div
+            class="w-fit  bg-white border dark:bg-gray-800 border-[#D9D9DE] dark:border-gray-700 rounded-xl  p-4 md:p-6">
+            <span class="text-[#00373E] dark:text-gray-200  font-inter font-semibold text-lg block mb-5">Popular
+                locations of
+                Freelancers</span>
+            <div class="py-6" id="pie-chart"></div>
         </div>
 
 
     </main>
 
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
     <script>
         // On page load or when changing themes, best to add inline in `head` to avoid FOUC
         if (localStorage.getItem('color-theme') === 'dark' || (!('color-theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
@@ -399,7 +415,7 @@
             {
                 axis: 'x',
                 label: 'Video editing',
-                data: [100, 80, 160, 10, 30, 50, 160],
+                data: [100, 140, 100, 10, 30, 50, 160],
                 fill: false,
                 backgroundColor: [
                     'rgb(96,60,217)',
@@ -412,7 +428,7 @@
             {
                 axis: 'x',
                 label: 'Marketing',
-                data: [180, 60, 80, 30, 50, 180, 100],
+                data: [180, 100, 80, 30, 50, 180, 100],
                 fill: false,
                 backgroundColor: [
                     'rgb(90,192,70)',
@@ -455,6 +471,162 @@
         const ctx = document.getElementById('myChart').getContext('2d');
 
         new Chart(ctx, config);
+
+
+
+
+
+
+
+        // const polarDdata = {
+        //     labels: [
+        //         'Red',
+        //         'Green',
+        //         'Yellow',
+        //         'Grey',
+        //         'Blue'
+        //     ],
+        //     datasets: [{
+        //         label: 'My First Dataset',
+        //         data: [11, 16, 7, 3, 14],
+        //         backgroundColor: [
+        //             'rgb(255, 99, 132)',
+        //             'rgb(75, 192, 192)',
+        //             'rgb(255, 205, 86)',
+        //             'rgb(201, 203, 207)',
+        //             'rgb(54, 162, 235)'
+        //         ]
+        //     }]
+        // };
+
+        // const polarConfig = {
+        //     type: 'polarArea',
+        //     data: polarDdata,
+        //     options: {
+        //         responsive: true,
+        //         plugins: {
+        //             legend: {
+        //                 position: 'top',
+        //             },
+        //             title: {
+        //                 display: true,
+        //                 text: 'Chart.js Polar Area Chart'
+        //             }
+        //         }
+        //     },
+        // };
+
+
+
+        // const polar = document.getElementById('polarChart').getContext('2d');
+
+        // new Chart(polar, polarConfig);
+
+
+
+
+
+
+        // ApexCharts options and config
+        window.addEventListener("load", function () {
+            const getChartOptions = () => {
+                return {
+                    series: [32.5, 26.8, 15, 25.5],
+                    colors: ["#1C64F2", "#16BDCA", "#9061F9", "#5dc847"],
+                    chart: {
+                        height: 420,
+                        width: 500,
+                        type: "pie",
+                    },
+                    stroke: {
+                        colors: ["white"],
+                        lineCap: "",
+                    },
+                    plotOptions: {
+                        pie: {
+                            labels: {
+                                show: true,
+                            },
+                            size: "100%",
+                            dataLabels: {
+                                offset: -25
+                            }
+                        },
+                    },
+                    labels: ["United States", "Saudi Arabia", "Morocco", "Egypt"],
+                    dataLabels: {
+                        enabled: true,
+                        style: {
+                            fontFamily: "Inter, sans-serif",
+                        },
+                    },
+                    legend: {
+                        position: "bottom",
+                        fontFamily: "Inter, sans-serif",
+                    },
+                    yaxis: {
+                        labels: {
+                            formatter: function (value) {
+                                return value + "%"
+                            },
+                        },
+                    },
+                    xaxis: {
+                        labels: {
+                            formatter: function (value) {
+                                return value + "%"
+                            },
+                        },
+                        axisTicks: {
+                            show: false,
+                        },
+                        axisBorder: {
+                            show: false,
+                        },
+                    },
+                }
+            }
+
+            if (document.getElementById("pie-chart") && typeof ApexCharts !== 'undefined') {
+                const chart = new ApexCharts(document.getElementById("pie-chart"), getChartOptions());
+                chart.render();
+            }
+
+
+            var options = {
+                series: [14, 23, 21, 17, 15, 10, 12, 17, 21],
+                chart: {
+                    type: 'polarArea',
+                },
+                stroke: {
+                    colors: ['#fff']
+                },
+                fill: {
+                    opacity: 0.8
+                },
+                responsive: [{
+                    breakpoint: 480,
+                    options: {
+                        chart: {
+                            width: 200
+                        },
+                        legend: {
+                            position: 'bottom'
+                        }
+                    }
+                }]
+            };
+
+            if (document.getElementById("polarChart") && typeof ApexCharts !== 'undefined') {
+                var chartPolar = new ApexCharts(document.querySelector("#polarChart"), options);
+                chartPolar.render();
+            }
+
+
+
+
+
+        });
 
     </script>
 </body>
