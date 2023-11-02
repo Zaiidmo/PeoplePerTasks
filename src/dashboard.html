@@ -36,9 +36,8 @@
                     </button>
 
                     <a href="/" class="flex ml-2 md:mr-24  items-center">
-                        <img src="/images/logo.webp" class="h-8 mr-6"
-                            alt="peoplepertask Logo" />
-                            <span class="font-inter font-semibold dark:text-white">PeaplePerTask</span>
+                        <img src="/images/logo.webp" class="h-8 mr-6" alt="peoplepertask Logo" />
+                        <span class="font-inter font-semibold dark:text-white">PeaplePerTask</span>
                     </a>
                 </div>
 
@@ -304,13 +303,34 @@
             </div>
         </div>
 
-        <div
-            class="w-fit  bg-white border dark:bg-gray-800 border-[#D9D9DE] dark:border-gray-700 rounded-xl  p-4 md:p-6">
-            <span class="text-[#00373E] dark:text-gray-200  font-inter font-semibold text-lg block mb-5">Popular
-                locations of
-                Freelancers</span>
-            <div class="py-6" id="pie-chart"></div>
+
+        <div class="flex gap-8">
+
+            <div
+                class="w-fit  bg-white border dark:bg-gray-800 border-[#D9D9DE] dark:border-gray-700 rounded-xl  p-4 md:p-6">
+                <span class="text-[#00373E] dark:text-gray-200  font-inter font-semibold text-lg block mb-5">Popular
+                    locations of
+                    Freelancers</span>
+                <div class="py-6" id="pie-chart"></div>
+            </div>
+
+
+            <div
+                class="flex-1 w-fit  bg-white border dark:bg-gray-800 border-[#D9D9DE] dark:border-gray-700 rounded-xl  p-4 md:p-6">
+                <span class="text-[#00373E] dark:text-gray-200  font-inter font-semibold text-lg block mb-5">Income By
+                    Countries</span>
+
+                <div class="h-[32rem] ">
+                    <canvas id="bar-chart"></canvas>
+                </div>
+            </div>
+
+
         </div>
+
+
+
+
 
 
     </main>
@@ -468,59 +488,74 @@
             }
         };
 
+
+
+
+
         const ctx = document.getElementById('myChart').getContext('2d');
 
         new Chart(ctx, config);
 
+        const barChartCtx = document.getElementById('bar-chart').getContext('2d');
+
+        const Bardata = {
+            labels: [
+                "Egypt",
+                "Nepal",
+                "Togo",
+                "India",
+                "Morocco",
+                "China",
+                "Poland",],
+            datasets: [{
+                label: 'Income By Country ',
+                data: [40, 60, 60, 140, 30, 80, 30, 200],
+                fill: false,
+                backgroundColor: [
+                    'rgb(255, 99, 132)',
+                    'rgb(255, 159, 64)',
+                    'rgb(255, 205, 86)',
+                    'rgb(75, 192, 192)',
+                    'rgb(54, 162, 235)',
+                    'rgb(153, 102, 255)',
+                    'rgb(201, 203, 207)',
+                ], borderColor: [
+                    'rgb(255, 99, 132)',
+                    'rgb(255, 159, 64)',
+                    'rgb(255, 205, 86)',
+                    'rgb(75, 192, 192)',
+                    'rgb(54, 162, 235)',
+                    'rgb(153, 102, 255)',
+                    'rgb(201, 203, 207)',
+                ],
+                borderWidth: 2
+            }
+            ]
+        };
+        ;
+        const Barconfig = {
+            type: 'bar',
+            data: Bardata,
+            options: {
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            },
+        };
+
+        new Chart(barChartCtx, Barconfig);
 
 
 
 
 
 
-        // const polarDdata = {
-        //     labels: [
-        //         'Red',
-        //         'Green',
-        //         'Yellow',
-        //         'Grey',
-        //         'Blue'
-        //     ],
-        //     datasets: [{
-        //         label: 'My First Dataset',
-        //         data: [11, 16, 7, 3, 14],
-        //         backgroundColor: [
-        //             'rgb(255, 99, 132)',
-        //             'rgb(75, 192, 192)',
-        //             'rgb(255, 205, 86)',
-        //             'rgb(201, 203, 207)',
-        //             'rgb(54, 162, 235)'
-        //         ]
-        //     }]
-        // };
-
-        // const polarConfig = {
-        //     type: 'polarArea',
-        //     data: polarDdata,
-        //     options: {
-        //         responsive: true,
-        //         plugins: {
-        //             legend: {
-        //                 position: 'top',
-        //             },
-        //             title: {
-        //                 display: true,
-        //                 text: 'Chart.js Polar Area Chart'
-        //             }
-        //         }
-        //     },
-        // };
 
 
 
-        // const polar = document.getElementById('polarChart').getContext('2d');
 
-        // new Chart(polar, polarConfig);
 
 
 
@@ -535,7 +570,7 @@
                     colors: ["#1C64F2", "#16BDCA", "#9061F9", "#5dc847"],
                     chart: {
                         height: 420,
-                        width: 500,
+                        width: 410,
                         type: "pie",
                     },
                     stroke: {
@@ -591,41 +626,6 @@
                 const chart = new ApexCharts(document.getElementById("pie-chart"), getChartOptions());
                 chart.render();
             }
-
-
-            var options = {
-                series: [14, 23, 21, 17, 15, 10, 12, 17, 21],
-                chart: {
-                    type: 'polarArea',
-                },
-                stroke: {
-                    colors: ['#fff']
-                },
-                fill: {
-                    opacity: 0.8
-                },
-                responsive: [{
-                    breakpoint: 480,
-                    options: {
-                        chart: {
-                            width: 200
-                        },
-                        legend: {
-                            position: 'bottom'
-                        }
-                    }
-                }]
-            };
-
-            if (document.getElementById("polarChart") && typeof ApexCharts !== 'undefined') {
-                var chartPolar = new ApexCharts(document.querySelector("#polarChart"), options);
-                chartPolar.render();
-            }
-
-
-
-
-
         });
 
     </script>
