@@ -1,32 +1,33 @@
 
-const form = document.getElementById("login-form");
-const name = document.getElementById("nom");
-const email = document.getElementById("Email");
-const phone = document.getElementById("num");
-const message = document.getElementById("Message");
+const form = document.getElementById("form");
 
 form.addEventListener("submit", (e) => {
-  const emailError = document.querySelector("#email-error");
-  const nameError = document.querySelector("#name-error");
-  const phoneError = document.querySelector("#phone-error");
-  const textError = document.querySelector("#text-error");
+  e.preventDefault();
+  console.log(e);
 
-  const emailRegex = /^[a-z0-9]+@[a-z]+\.[a-z]{2,3}$/;
-  const nameRegex = /^[A-Za-zs]+$/;
-  const phoneRegex = /^\d+$/;
+  let password = e.target.password.value
+  let email = e.target.email.value
+ 
+  console.log(password);
+ 
+
   
-  if(!nameRegex.test(name.value)){
-    e.preventDefault();
-    nameError.style.display = "block"
+  const emailError = document.querySelector("#email-error");
+  const passwordError = document.querySelector("#password-error");
+  
+
+  
+  const emailRegex = /^[a-z0-9]+@[a-z]+\.[a-z]{2,3}$/;
+  const passwordRegex = /^[A-Za-zs]+$/;
+  
+  
+  if(!passwordRegex.test(password)){
+     passwordError.classList.toggle("hidden")
     
   }
-  if(!emailRegex.test(email.value)){
-    e.preventDefault();
-    emailError.style.display = "block"
+
+  if(!emailRegex.test(email)){
+    emailError.classList.toggle("hidden")
   }
-  if(!phoneRegex.test(phone.value)){
-    e.preventDefault();
-    phoneError.style.display = "block"
-  }
- 
+  
 })
