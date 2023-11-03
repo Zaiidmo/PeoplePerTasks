@@ -1,8 +1,13 @@
-/** @type {import('tailwindcss').Config} */
+/ @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{html,js}", "./node_modules/flowbite/**/*.js"],
+  content: ["./src/**/*.{html,js}"],
   theme: {
+
     extend: {
+      screens: {
+        'tablet': '1360px',
+        'smXl': '800px'
+      },
       colors: {
         primary: {
           50: "#fffbeb",
@@ -18,7 +23,14 @@ module.exports = {
           950: "#451a03",
         },
       },
-    }
-  },
-  darkMode: "class",
-};
+      maxWidth: {
+        '1/2': '50%',
+      },
+      fontFamily: {
+        'inter': ['Inter', 'sans-serif'],
+      },
+    },
+
+
+  }
+}
