@@ -1953,6 +1953,36 @@ select {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+:is(.dark .dark\:ring-orange-300) {
+  --tw-ring-opacity: 1;
+  --tw-ring-color: rgb(253 186 116 / var(--tw-ring-opacity));
+}
+
+:is(.dark .dark\:ring-orange-500) {
+  --tw-ring-opacity: 1;
+  --tw-ring-color: rgb(249 115 22 / var(--tw-ring-opacity));
+}
+
+:is(.dark .dark\:ring-orange-400) {
+  --tw-ring-opacity: 1;
+  --tw-ring-color: rgb(251 146 60 / var(--tw-ring-opacity));
+}
+
+:is(.dark .dark\:ring-orange-100) {
+  --tw-ring-opacity: 1;
+  --tw-ring-color: rgb(255 237 213 / var(--tw-ring-opacity));
+}
+
+:is(.dark .dark\:ring-orange-200) {
+  --tw-ring-opacity: 1;
+  --tw-ring-color: rgb(254 215 170 / var(--tw-ring-opacity));
+}
+
+:is(.dark .dark\:ring-gray-700) {
+  --tw-ring-opacity: 1;
+  --tw-ring-color: rgb(55 65 81 / var(--tw-ring-opacity));
+}
+
 :is(.dark .dark\:hover\:bg-gray-600:hover) {
   --tw-bg-opacity: 1;
   background-color: rgb(75 85 99 / var(--tw-bg-opacity));
