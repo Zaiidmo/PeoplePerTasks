@@ -1,5 +1,5 @@
 const slider = document.querySelector("#clients_slider");
-const clients = document.querySelectorAll("#client");
+const clients = document.querySelectorAll(".client");
 const nextbtn = document.querySelector("#next");
 const prvbtn = document.querySelector("#previous");
 const mobileNext = document.querySelector("#mobile-next");
@@ -11,7 +11,7 @@ let move = 0;
 const slideWidth = 400;
 
 function next(){
-    if(index < clients.length -2){
+    if(index < clients.length -1){
         index++;
         move += slideWidth ;
       } else {
@@ -25,7 +25,7 @@ function previous(){
         index--;
         move -= slideWidth;
       } else {
-        index = clients.length - 2;
+        index = clients.length - 1;
         move = index * slideWidth;
       }
       slider.style.transform = `translateX(${-move}px)`;

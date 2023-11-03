@@ -1,12 +1,15 @@
 / @type {import('tailwindcss').Config} */
 module.exports = {
+<<<<<<< HEAD
   content: ["./src/**/*.{html,js}", "./node_modules/flowbite/**/.js"],
+=======
+  content: ["./src/**/*.{html,js}", "./node_modules/flowbite/**/*.js"],
+>>>>>>> 908b854d1925f333c14281f84515a34bedc3b356
   darkMode: "class",
   theme: {
     
     extend: {
       screens: {
-        screens: {
         'tablet': '1360px',
         'smXl': '800px'
       },
@@ -26,25 +29,14 @@ module.exports = {
         },
       },
     },
-      screens: {
-      'tablet': '1360px',
-      'smXl': '800px'
-    },
-      screens: {
-        'tablet': '1360px',
-        'smXl': '800px'
-      },
-      maxWidth: {
-        '1/2': '50%',
-      },
-      fontFamily: {
-        'inter': ['Inter', 'sans-serif'],
-      },
-      screens: {
-      'tablet': '1360px',
-      'smXl': '800px'
-    },
+<<<<<<< HEAD
      
+=======
+      screens: {
+      'tablet': '1360px',
+      'smXl': '800px'
+    },
+>>>>>>> 908b854d1925f333c14281f84515a34bedc3b356
     maxWidth: {
       '1/2': '50%',
     },
@@ -54,8 +46,8 @@ module.exports = {
   },
 
 
-  },
-  darkMode: "class",
-};
+<<<<<<< HEAD
 }
+=======
 }
+>>>>>>> 908b854d1925f333c14281f84515a34bedc3b356
