@@ -4,6 +4,10 @@ module.exports = {
   darkMode: "class",
   theme: {
     extend: {
+        screens: {
+        'tablet': '1360px',
+        'smXl': '800px'
+      },
       colors: {
         primary: {
           50: "#fffbeb",
@@ -19,10 +23,6 @@ module.exports = {
           950: "#451a03",
         },
       },
-    },
-      screens: {
-      'tablet': '1360px',
-      'smXl': '800px'
     },
     maxWidth: {
       '1/2': '50%',
