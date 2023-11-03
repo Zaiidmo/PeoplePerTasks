@@ -1,3 +1,28 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+@font-face {
+    font-family: 'Reckless Neue';
+    src: url('../assets/RecklessNeue-Heavy.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #F8F6F5;
+}
+
+h1 {
+    letter-spacing: -.01em;
+    margin-top: 0;
+    margin-bottom: .2em;
+    font-family: Reckless Neue, sans-serif;
+    font-size: 5rem;
+    font-weight: 900;
+    line-height: 1
+}
