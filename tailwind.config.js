@@ -3,10 +3,9 @@ module.exports = {
   content: ["./src/**/*.{html,js}", "./node_modules/flowbite/**/.js"],
   darkMode: "class",
   theme: {
-    
+
     extend: {
       screens: {
-        screens: {
         'tablet': '1360px',
         'smXl': '800px'
       },
@@ -25,37 +24,14 @@ module.exports = {
           950: "#451a03",
         },
       },
-    },
-      screens: {
-      'tablet': '1360px',
-      'smXl': '800px'
-    },
-      screens: {
-        'tablet': '1360px',
-        'smXl': '800px'
-      },
       maxWidth: {
         '1/2': '50%',
       },
       fontFamily: {
         'inter': ['Inter', 'sans-serif'],
       },
-      screens: {
-      'tablet': '1360px',
-      'smXl': '800px'
     },
-     
-    maxWidth: {
-      '1/2': '50%',
-    },
-    fontFamily: {
-      'inter': ['Inter', 'sans-serif'],
-    },
-  },
 
 
-  },
-  darkMode: "class",
-};
-}
+  }
 }
