@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="/dist/contact.css">
-  <link rel="stylesheet" href="../dist/output.css">
-  <link rel="stylesheet" href="/dist/output.css">
-
   <title>Document</title>
+<<<<<<< HEAD
+  <link rel="stylesheet" href="/dist/output.css">
+=======
+  <link rel="stylesheet" href="../dist/output.css">
+>>>>>>> basma
 </head>
-<body class="  bg-gray-100 dark: dark:bg-gray-900  ">
+
+<body class="bg-gray-100 dark: dark:bg-gray-900">
   <header>
     <nav
       class="bg-white border-gray-200 px-4 lg:px-6 py-2.5 dark:bg-gray-800"
@@ -101,137 +104,100 @@
           </button>
         </div>
         <div
-            class="hidden justify-between items-center w-full lg:flex lg:w-auto lg:order-1"
-            id="mobile-menu-2"
+          class="hidden justify-between items-center w-full lg:flex lg:w-auto lg:order-1"
+          id="mobile-menu-2"
+        >
+          <ul
+            class="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0"
           >
-            <ul
-              class="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0"
-            >
-              <li>
-                <a
-                  href="../src/index.html"
-                  class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
-                  aria-current="page"
-                  >Home
-                </a>
-              </li>
-              <li>
-                <button
-                  id="dropdownDefaultButton"
-                  data-dropdown-toggle="dropdown"
-                  class="inline-flex py-2 pr-4 pl-3 cursor-pointer text-primary-500 rounded lg:bg-transparent lg:text-primary-700 lg:p-0 dark:text-white"
-                  type="button"
-                >
-                  Company
-                  <svg
-                    class="w-2.5 h-2.5 ml-2.5 mt-2.5"
-                    aria-hidden="true"
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 10 6"
-                  >
-                    <path
-                      stroke="currentColor"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="m1 1 4 4 4-4"
-                    />
-                  </svg>
-                </button>
-                <!-- Dropdown menu -->
-                <div
-                  id="dropdown"
-                  class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700"
-                >
-                  <ul
-                    class="py-2 text-sm text-gray-700 dark:text-gray-200"
-                    aria-labelledby="dropdownDefaultButton"
-                  >
-                    <li>
-                      <a
-                        href="../src/about.html#tab-profile"
-                        class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                        >Who we are</a
-                      >
-                    </li>
-                    <li>
-                      <a
-                        href="../src/about.html#tab-settings"
-                        class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                        >Our Value System</a
-                      >
-                    </li>
-                    <li>
-                      <a
-                        href="../src/about.html#tab-options"
-                        class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                        >Meet The Team</a
-                      >
-                    </li>
-                  </ul>
-                  <div class="py-2">
-                    <a
-                      href="../src/pricing.html"
-                      class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white"
-                      >Pricing</a
-                    >
-                  </div>
-                </div>
-              </li>
-              <li>
-                <a
-                  href="../src/marketplace.html"
-                  class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
-                  >Market Place</a
-                >
-              </li>
-              <li>
-                <a
-                  href="../src/contact.html"
-                  class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
-                  >Contact</a
-                >
-              </li>
-            </ul>
-          </div>
+            <li>
+              <a
+                href="#"
+                class="block py-2 pr-4 pl-3 text-primary-500 rounded lg:bg-transparent lg:text-primary-700 lg:p-0 dark:text-white"
+                aria-current="page"
+                >Home
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+                class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
+                >Company</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
+                >Marketplace</a
+              >
+            </li>
+            <li>
+              <a
+                href="contact.html"
+                class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
+                >Contact</a
+              >
+            </li>
+          </ul>
         </div>
-      </nav>
-    </header>
-  <!--Contact section -->
-  <section class="flex justify-center items-center py-20 dark:bg-gray-900">
-    <div class="py-8 px-4 max-w-screen-sm  w-[70%] bg-white border rounded-3xl dark: dark:bg-gray-700 ">
-        <h2 class="mb-2 text-5xl tracking-tight font-popping text-center text-gray-900 dark:text-white  font-semibold">Get in <span class="text-orange-500 text-semibold">touch</span> </h2>
-       <p class="m-8 text-gray-700 dark:text-white font-normal">Send us a Message</p>
-       <!-- form-->
-        <form action="#" class="space-y-8 flex flex-col justify-evenly " id="form" >
-            <div>
-                <input type="text" id="nom" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-3xl focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light " placeholder="Contact name" >
-                <span class=" text-red-600 hidden" id="name-error">no valid  </span>
-            </div>
-        
-            <div>
-                <input type="tel" id="num" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-3xl focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="Contact Phone" >
-                <span class=" text-red-600 hidden" id="phone-error">no valid </span>
-            </div>
-            <div>
-                <input type="Email" id="subject" class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-3xl border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="E-mail" >
-                <span class="text-red-600 hidden" id="email-error">no valid </span>
-            </div>
-            <div class="sm:col-span-2">
-                <textarea id="Message" rows="6" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-3xl shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" placeholder="Let talk about your idea"></textarea>
-                <span class=" text-red-600 hidden" id="text-error">no valid </span>
-            </div>
-            <button type="submit" class="py-3 px-5 text-sm font-medium text-center text-white rounded-3xl bg-orange-600 w-60 hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800 self-center  ">S U B M I T</button>
-        </form>
-       
+      </div>
+    </nav>
+  </header>
+ 
+  <!--Section signUp-->
+  <section class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md  dark:bg-gray-900">
+    <div class="py-8 lg:py-16 px-4  w-[70%] bg-white border rounded-3xl dark: dark:bg-gray-700 m-8 ">
+      <h2 class=" mb-16 text-5xl tracking-tight  text-center text-gray-900 dark:text-white  font-semibold"> Sign <span class="text-orange-500 text-semibold">Up</span></h2>
+      <p class="m-4 text-dark text-2xl font-popping dark:text-white ">Welcome </p>
+ <!--  Form signUp -->
+      <form action="#" class="space-y-8 " id="form">
+        <div>
+          <input type="text" id="nom"
+            class="shadow-sm bg-gray-50 border border-gray-300  text-gray-900 text-sm rounded-3xl focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light "
+            placeholder="Firstname" >
+            <span class="text-red-600 hidden " id="name-error">no valid</span>
+        </div>
+        <div>
+          <input type="text" id="lastNom"
+            class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-3xl focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
+            placeholder="Lastname" >
+            <span class="text-red-600 hidden" id="lastNomError">no valid</span>
+        </div>
 
-  </div>
+        <div>
+          <input type="email" id="subject"
+            class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-3xl focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
+            placeholder="Email" >
+            <span class="text-red-600 hidden" id="email-error">no valid</span>
+        </div>
+        <div>
+          <input type="password" id="password"
+            class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-3xl border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
+            placeholder="password">
+            <span class="text-red-600 hidden" id="password-error">no valid</span>
+        </div>
+        <div class="sm:col-span-2">
+          <input id="passwordConfirm" rows="6"
+            class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-3xl shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
+            placeholder="Confirm password">
+            <span class="text-red-600 hidden" id="confirm-error">no valid</span>
+        </div>
+
+        <div class="flex justify-center ">
+          <div> <button type="submit"
+              class="py-3 px-5 text-sm font-medium text-center text-white rounded-3xl bg-orange-600 w-60 hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800   ">Start</button>
+          </div>
+
+        </div>
+      </form>
+
+      <div class=" flex justify-center">
+      <div> <h2 class="text-orange-500 font-semibold pt-4 mt-4 ">Forgot Password ?</h2></div>
+      </div> 
+      <div class="flex justify-center dark:text-white mt-4 ">  <p>Don't have an account? <span class="">SignUp</span></p></div> 
     </div>
-     
   </section> 
-   <!---------------------------------------------->
- <!-- Footer section -->
   <footer class="p-4 bg-white sm:p-6 dark:bg-gray-800">
     <div class="mx-auto max-w-screen-xl">
       <div class="md:flex md:justify-between">
@@ -419,19 +385,7 @@
       </div>
     </div>
 </footer>
-<script src="../js/theme.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.0.0/flowbite.min.js"></script>
-<script src="jquery.js"></script>
-<script src="/js/contact.js"></script>
-
-
 </body>
+<script src="../js/theme.js"></script>
+<script src="../js/signup.js"></script>
 </html>
-
-
-
-
-
-
-
-     
