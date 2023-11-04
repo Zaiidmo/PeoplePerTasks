@@ -6,6 +6,5 @@
   "dependencies": {
     "flowbite": "^2.0.0",
     "tailgrids": "^2.1.0"
-    "owl.carousel": "^2.3.4"
   }
 }
