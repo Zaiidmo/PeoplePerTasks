@@ -851,27 +851,16 @@ select {
   z-index: 40;
 }
 
-<<<<<<< HEAD:dist/output.css
 .z-50 {
   z-index: 50;
 }
 
-=======
->>>>>>> ismail:dist/about.css
 .-m-2 {
   margin: -0.5rem;
 }
 
 .-m-4 {
   margin: -1rem;
-}
-
-.m-4 {
-  margin: 1rem;
-}
-
-.m-8 {
-  margin: 2rem;
 }
 
 .-mx-2 {
@@ -926,10 +915,6 @@ select {
 
 .mb-12 {
   margin-bottom: 3rem;
-}
-
-.mb-16 {
-  margin-bottom: 4rem;
 }
 
 .mb-2 {
@@ -1068,13 +1053,10 @@ select {
   margin-top: 1.75rem;
 }
 
-<<<<<<< HEAD:dist/output.css
 .mt-8 {
   margin-top: 2rem;
 }
 
-=======
->>>>>>> ismail:dist/about.css
 .block {
   display: block;
 }
@@ -1228,10 +1210,6 @@ select {
   width: 1.5rem;
 }
 
-.w-60 {
-  width: 15rem;
-}
-
 .w-64 {
   width: 16rem;
 }
@@ -1252,17 +1230,8 @@ select {
   width: 100%;
 }
 
-<<<<<<< HEAD:dist/output.css
 .w-\[410px\] {
   width: 410px;
-}
-
-.w-\[60\%\] {
-  width: 60%;
-}
-
-.w-\[70\%\] {
-  width: 70%;
 }
 
 .w-auto {
@@ -1278,8 +1247,6 @@ select {
   width: 100%;
 }
 
-=======
->>>>>>> ismail:dist/about.css
 .min-w-0 {
   min-width: 0px;
 }
@@ -1458,7 +1425,6 @@ select {
   align-items: baseline;
 }
 
-<<<<<<< HEAD:dist/output.css
 .justify-start {
   justify-content: flex-start;
 }
@@ -1467,14 +1433,16 @@ select {
   justify-content: flex-end;
 }
 
-=======
->>>>>>> ismail:dist/about.css
 .justify-center {
   justify-content: center;
 }
 
 .justify-between {
   justify-content: space-between;
+}
+
+.justify-evenly {
+  justify-content: space-evenly;
 }
 
 .gap-1 {
@@ -1505,13 +1473,10 @@ select {
   gap: 1.25rem;
 }
 
-<<<<<<< HEAD:dist/output.css
 .gap-6 {
   gap: 1.5rem;
 }
 
-=======
->>>>>>> ismail:dist/about.css
 .gap-8 {
   gap: 2rem;
 }
@@ -1535,12 +1500,6 @@ select {
   --tw-space-x-reverse: 0;
   margin-right: calc(1rem * var(--tw-space-x-reverse));
   margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
-}
-
-.space-x-5 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-x-reverse: 0;
-  margin-right: calc(1.25rem * var(--tw-space-x-reverse));
-  margin-left: calc(1.25rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
 .space-x-6 > :not([hidden]) ~ :not([hidden]) {
@@ -1592,7 +1551,6 @@ select {
   align-self: center;
 }
 
-<<<<<<< HEAD:dist/output.css
 .overflow-hidden {
   overflow: hidden;
 }
@@ -1601,8 +1559,6 @@ select {
   overflow-x: auto;
 }
 
-=======
->>>>>>> ismail:dist/about.css
 .overflow-y-auto {
   overflow-y: auto;
 }
@@ -1629,13 +1585,10 @@ select {
   border-radius: 0.25rem;
 }
 
-<<<<<<< HEAD:dist/output.css
 .rounded-2xl {
   border-radius: 1rem;
 }
 
-=======
->>>>>>> ismail:dist/about.css
 .rounded-3xl {
   border-radius: 1.5rem;
 }
@@ -1652,7 +1605,6 @@ select {
   border-radius: 0.375rem;
 }
 
-<<<<<<< HEAD:dist/output.css
 .rounded-xl {
   border-radius: 0.75rem;
 }
@@ -1667,18 +1619,12 @@ select {
   border-bottom-right-radius: 0.5rem;
 }
 
-=======
->>>>>>> ismail:dist/about.css
 .border {
   border-width: 1px;
 }
 
 .border-0 {
   border-width: 0px;
-}
-
-.border-2 {
-  border-width: 2px;
 }
 
 .border-b {
@@ -1701,11 +1647,6 @@ select {
 .border-black {
   --tw-border-opacity: 1;
   border-color: rgb(0 0 0 / var(--tw-border-opacity));
-}
-
-.border-blue-500 {
-  --tw-border-opacity: 1;
-  border-color: rgb(59 130 246 / var(--tw-border-opacity));
 }
 
 .border-blue-600 {
@@ -1731,11 +1672,6 @@ select {
 .border-gray-300 {
   --tw-border-opacity: 1;
   border-color: rgb(209 213 219 / var(--tw-border-opacity));
-}
-
-.border-gray-500 {
-  --tw-border-opacity: 1;
-  border-color: rgb(107 114 128 / var(--tw-border-opacity));
 }
 
 .border-green-300 {
@@ -1766,11 +1702,6 @@ select {
 .bg-black {
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
-}
-
-.bg-blue-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(59 130 246 / var(--tw-bg-opacity));
 }
 
 .bg-blue-700 {
@@ -1823,20 +1754,11 @@ select {
   background-color: rgb(253 186 116 / var(--tw-bg-opacity));
 }
 
-<<<<<<< HEAD:dist/output.css
-.bg-orange-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(249 115 22 / var(--tw-bg-opacity));
-}
-
-=======
->>>>>>> ismail:dist/about.css
 .bg-orange-600 {
   --tw-bg-opacity: 1;
   background-color: rgb(234 88 12 / var(--tw-bg-opacity));
 }
 
-<<<<<<< HEAD:dist/output.css
 .bg-primary-600 {
   --tw-bg-opacity: 1;
   background-color: rgb(217 119 6 / var(--tw-bg-opacity));
@@ -1851,25 +1773,19 @@ select {
   background-color: transparent;
 }
 
-=======
->>>>>>> ismail:dist/about.css
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-<<<<<<< HEAD:dist/output.css
 .bg-white\/50 {
   background-color: rgb(255 255 255 / 0.5);
 }
 
-=======
->>>>>>> ismail:dist/about.css
 .bg-opacity-25 {
   --tw-bg-opacity: 0.25;
 }
 
-<<<<<<< HEAD:dist/output.css
 .bg-opacity-50 {
   --tw-bg-opacity: 0.5;
 }
@@ -1882,8 +1798,6 @@ select {
   padding: 3rem;
 }
 
-=======
->>>>>>> ismail:dist/about.css
 .p-2 {
   padding: 0.5rem;
 }
@@ -1912,14 +1826,11 @@ select {
   padding: 2rem;
 }
 
-<<<<<<< HEAD:dist/output.css
 .px-12 {
   padding-left: 3rem;
   padding-right: 3rem;
 }
 
-=======
->>>>>>> ismail:dist/about.css
 .px-2 {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
@@ -1978,11 +1889,6 @@ select {
 .py-2\.5 {
   padding-top: 0.625rem;
   padding-bottom: 0.625rem;
-}
-
-.py-20 {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
 }
 
 .py-24 {
@@ -2051,11 +1957,6 @@ select {
   padding-top: 0.25rem;
 }
 
-<<<<<<< HEAD:dist/output.css
-.pt-12 {
-  padding-top: 3rem;
-}
-
 .pt-2 {
   padding-top: 0.5rem;
 }
@@ -2064,8 +1965,6 @@ select {
   padding-top: 5rem;
 }
 
-=======
->>>>>>> ismail:dist/about.css
 .pt-24 {
   padding-top: 6rem;
 }
@@ -2082,13 +1981,10 @@ select {
   text-align: center;
 }
 
-<<<<<<< HEAD:dist/output.css
 .font-inter {
   font-family: Inter, sans-serif;
 }
 
-=======
->>>>>>> ismail:dist/about.css
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
@@ -2195,10 +2091,6 @@ select {
   line-height: 1.625;
 }
 
-.leading-tight {
-  line-height: 1.25;
-}
-
 .tracking-tight {
   letter-spacing: -0.025em;
 }
@@ -2240,11 +2132,6 @@ select {
   color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
-.text-blue-500 {
-  --tw-text-opacity: 1;
-  color: rgb(59 130 246 / var(--tw-text-opacity));
-}
-
 .text-blue-600 {
   --tw-text-opacity: 1;
   color: rgb(37 99 235 / var(--tw-text-opacity));
@@ -2253,11 +2140,6 @@ select {
 .text-blue-700 {
   --tw-text-opacity: 1;
   color: rgb(29 78 216 / var(--tw-text-opacity));
-}
-
-.text-blue-900 {
-  --tw-text-opacity: 1;
-  color: rgb(30 58 138 / var(--tw-text-opacity));
 }
 
 .text-gray-200 {
@@ -2330,11 +2212,6 @@ select {
   color: rgb(239 68 68 / var(--tw-text-opacity));
 }
 
-.text-red-600 {
-  --tw-text-opacity: 1;
-  color: rgb(220 38 38 / var(--tw-text-opacity));
-}
-
 .text-red-800 {
   --tw-text-opacity: 1;
   color: rgb(153 27 27 / var(--tw-text-opacity));
@@ -2345,7 +2222,6 @@ select {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-<<<<<<< HEAD:dist/output.css
 .underline {
   text-decoration-line: underline;
 }
@@ -2358,8 +2234,6 @@ select {
   opacity: 1;
 }
 
-=======
->>>>>>> ismail:dist/about.css
 .shadow {
   --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
@@ -2528,11 +2402,6 @@ h1 {
   background-color: rgb(249 115 22 / var(--tw-bg-opacity));
 }
 
-.hover\:bg-orange-600:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(234 88 12 / var(--tw-bg-opacity));
-}
-
 .hover\:bg-orange-700:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(194 65 12 / var(--tw-bg-opacity));
@@ -2541,11 +2410,6 @@ h1 {
 .hover\:bg-primary-700:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(180 83 9 / var(--tw-bg-opacity));
-}
-
-.hover\:bg-primary-800:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(146 64 14 / var(--tw-bg-opacity));
 }
 
 .hover\:bg-white:hover {
@@ -2568,14 +2432,11 @@ h1 {
   color: rgb(107 114 128 / var(--tw-text-opacity));
 }
 
-<<<<<<< HEAD:dist/output.css
 .hover\:text-gray-600:hover {
   --tw-text-opacity: 1;
   color: rgb(75 85 99 / var(--tw-text-opacity));
 }
 
-=======
->>>>>>> ismail:dist/about.css
 .hover\:text-gray-700:hover {
   --tw-text-opacity: 1;
   color: rgb(55 65 81 / var(--tw-text-opacity));
@@ -2586,14 +2447,11 @@ h1 {
   color: rgb(17 24 39 / var(--tw-text-opacity));
 }
 
-<<<<<<< HEAD:dist/output.css
 .hover\:text-white:hover {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-=======
->>>>>>> ismail:dist/about.css
 .hover\:underline:hover {
   text-decoration-line: underline;
 }
@@ -2601,11 +2459,6 @@ h1 {
 .focus\:border-blue-500:focus {
   --tw-border-opacity: 1;
   border-color: rgb(59 130 246 / var(--tw-border-opacity));
-}
-
-.focus\:border-primary-500:focus {
-  --tw-border-opacity: 1;
-  border-color: rgb(245 158 11 / var(--tw-border-opacity));
 }
 
 .focus\:bg-gray-100:focus {
@@ -2679,11 +2532,6 @@ h1 {
 .focus\:ring-primary-300:focus {
   --tw-ring-opacity: 1;
   --tw-ring-color: rgb(252 211 77 / var(--tw-ring-opacity));
-}
-
-.focus\:ring-primary-500:focus {
-  --tw-ring-opacity: 1;
-  --tw-ring-color: rgb(245 158 11 / var(--tw-ring-opacity));
 }
 
 .focus\:ring-opacity-80:focus {
@@ -2773,11 +2621,6 @@ h1 {
   background-color: rgb(17 24 39 / var(--tw-bg-opacity));
 }
 
-:is(.dark .dark\:bg-orange-500) {
-  --tw-bg-opacity: 1;
-  background-color: rgb(249 115 22 / var(--tw-bg-opacity));
-}
-
 :is(.dark .dark\:bg-orange-600) {
   --tw-bg-opacity: 1;
   background-color: rgb(234 88 12 / var(--tw-bg-opacity));
@@ -2832,7 +2675,6 @@ h1 {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-<<<<<<< HEAD:dist/output.css
 :is(.dark .dark\:placeholder-gray-400)::-moz-placeholder {
   --tw-placeholder-opacity: 1;
   color: rgb(156 163 175 / var(--tw-placeholder-opacity));
@@ -2843,8 +2685,6 @@ h1 {
   color: rgb(156 163 175 / var(--tw-placeholder-opacity));
 }
 
-=======
->>>>>>> ismail:dist/about.css
 :is(.dark .dark\:ring-gray-700) {
   --tw-ring-opacity: 1;
   --tw-ring-color: rgb(55 65 81 / var(--tw-ring-opacity));
@@ -2874,11 +2714,6 @@ h1 {
   background-color: rgb(31 41 55 / var(--tw-bg-opacity));
 }
 
-:is(.dark .dark\:hover\:bg-orange-500:hover) {
-  --tw-bg-opacity: 1;
-  background-color: rgb(249 115 22 / var(--tw-bg-opacity));
-}
-
 :is(.dark .dark\:hover\:bg-orange-700:hover) {
   --tw-bg-opacity: 1;
   background-color: rgb(194 65 12 / var(--tw-bg-opacity));
@@ -2902,11 +2737,6 @@ h1 {
 :is(.dark .dark\:hover\:text-white:hover) {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-:is(.dark .dark\:focus\:border-primary-500:focus) {
-  --tw-border-opacity: 1;
-  border-color: rgb(245 158 11 / var(--tw-border-opacity));
 }
 
 :is(.dark .dark\:focus\:ring-blue-600:focus) {
@@ -2939,11 +2769,6 @@ h1 {
   --tw-ring-color: rgb(234 88 12 / var(--tw-ring-opacity));
 }
 
-:is(.dark .dark\:focus\:ring-primary-500:focus) {
-  --tw-ring-opacity: 1;
-  --tw-ring-color: rgb(245 158 11 / var(--tw-ring-opacity));
-}
-
 :is(.dark .dark\:focus\:ring-primary-800:focus) {
   --tw-ring-opacity: 1;
   --tw-ring-color: rgb(146 64 14 / var(--tw-ring-opacity));
@@ -2959,17 +2784,9 @@ h1 {
 }
 
 @media (min-width: 640px) {
-  .sm\:col-span-2 {
-    grid-column: span 2 / span 2;
-  }
-
   .sm\:mx-auto {
     margin-left: auto;
     margin-right: auto;
-  }
-
-  .sm\:ml-4 {
-    margin-left: 1rem;
   }
 
   .sm\:ml-6 {
@@ -2994,10 +2811,6 @@ h1 {
 
   .sm\:h-9 {
     height: 2.25rem;
-  }
-
-  .sm\:w-40 {
-    width: 10rem;
   }
 
   .sm\:grid-cols-2 {
@@ -3088,14 +2901,6 @@ h1 {
     inset: 0px;
   }
 
-  .md\:order-1 {
-    order: 1;
-  }
-
-  .md\:order-2 {
-    order: 2;
-  }
-
   .md\:mb-0 {
     margin-bottom: 0px;
   }
@@ -3104,20 +2909,8 @@ h1 {
     margin-left: 0.25rem;
   }
 
-  .md\:mr-0 {
-    margin-right: 0px;
-  }
-
   .md\:mr-24 {
     margin-right: 6rem;
-  }
-
-  .md\:mt-0 {
-    margin-top: 0px;
-  }
-
-  .md\:mt-10 {
-    margin-top: 2.5rem;
   }
 
   .md\:flex {
@@ -3128,20 +2921,8 @@ h1 {
     display: grid;
   }
 
-  .md\:hidden {
-    display: none;
-  }
-
-  .md\:h-screen {
-    height: 100vh;
-  }
-
   .md\:w-1\/2 {
     width: 50%;
-  }
-
-  .md\:w-auto {
-    width: auto;
   }
 
   .md\:grid-cols-2 {
@@ -3156,22 +2937,6 @@ h1 {
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 
-  .md\:flex-row {
-    flex-direction: row;
-  }
-
-  .md\:items-center {
-    align-items: center;
-  }
-
-  .md\:justify-start {
-    justify-content: flex-start;
-  }
-
-  .md\:justify-end {
-    justify-content: flex-end;
-  }
-
   .md\:justify-between {
     justify-content: space-between;
   }
@@ -3184,42 +2949,14 @@ h1 {
     gap: 1.25rem;
   }
 
-  .md\:space-x-8 > :not([hidden]) ~ :not([hidden]) {
-    --tw-space-x-reverse: 0;
-    margin-right: calc(2rem * var(--tw-space-x-reverse));
-    margin-left: calc(2rem * calc(1 - var(--tw-space-x-reverse)));
-  }
-
   .md\:space-y-0 > :not([hidden]) ~ :not([hidden]) {
     --tw-space-y-reverse: 0;
     margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));
     margin-bottom: calc(0px * var(--tw-space-y-reverse));
   }
 
-  .md\:border-0 {
-    border-width: 0px;
-  }
-
-  .md\:bg-transparent {
-    background-color: transparent;
-  }
-
-  .md\:bg-white {
-    --tw-bg-opacity: 1;
-    background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-  }
-
-  .md\:p-0 {
-    padding: 0px;
-  }
-
   .md\:p-6 {
     padding: 1.5rem;
-  }
-
-  .md\:px-20 {
-    padding-left: 5rem;
-    padding-right: 5rem;
   }
 
   .md\:py-32 {
@@ -3227,13 +2964,6 @@ h1 {
     padding-bottom: 8rem;
   }
 
-<<<<<<< HEAD:dist/output.css
-  .md\:text-left {
-    text-align: left;
-  }
-
-=======
->>>>>>> ismail:dist/about.css
   .md\:text-4xl {
     font-size: 2.25rem;
     line-height: 2.5rem;
@@ -3248,44 +2978,10 @@ h1 {
     font-size: 1rem;
     line-height: 1.5rem;
   }
-<<<<<<< HEAD:dist/output.css
 
   .md\:text-lg {
     font-size: 1.125rem;
     line-height: 1.75rem;
-  }
-
-  .md\:text-orange-500 {
-    --tw-text-opacity: 1;
-    color: rgb(249 115 22 / var(--tw-text-opacity));
-  }
-
-  .md\:hover\:bg-transparent:hover {
-    background-color: transparent;
-  }
-
-  .md\:hover\:text-orange-700:hover {
-    --tw-text-opacity: 1;
-    color: rgb(194 65 12 / var(--tw-text-opacity));
-  }
-
-  :is(.dark .md\:dark\:bg-gray-900) {
-    --tw-bg-opacity: 1;
-    background-color: rgb(17 24 39 / var(--tw-bg-opacity));
-  }
-
-  :is(.dark .md\:dark\:text-orange-500) {
-    --tw-text-opacity: 1;
-    color: rgb(249 115 22 / var(--tw-text-opacity));
-  }
-
-  :is(.dark .md\:dark\:hover\:bg-transparent:hover) {
-    background-color: transparent;
-  }
-
-  :is(.dark .md\:dark\:hover\:text-orange-500:hover) {
-    --tw-text-opacity: 1;
-    color: rgb(249 115 22 / var(--tw-text-opacity));
   }
 }
 
@@ -3302,8 +2998,6 @@ h1 {
     --tw-translate-x: 0px;
     transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
   }
-=======
->>>>>>> ismail:dist/about.css
 }
 
 @media (min-width: 1024px) {
@@ -3335,7 +3029,6 @@ h1 {
     grid-column: span 7 / span 7;
   }
 
-<<<<<<< HEAD:dist/output.css
   .lg\:mx-0 {
     margin-left: 0px;
     margin-right: 0px;
@@ -3346,8 +3039,6 @@ h1 {
     margin-right: auto;
   }
 
-=======
->>>>>>> ismail:dist/about.css
   .lg\:my-8 {
     margin-top: 2rem;
     margin-bottom: 2rem;
@@ -3529,7 +3220,6 @@ h1 {
     padding-bottom: 1.5rem;
   }
 
-<<<<<<< HEAD:dist/output.css
   .lg\:py-8 {
     padding-top: 2rem;
     padding-bottom: 2rem;
@@ -3539,14 +3229,8 @@ h1 {
     padding-left: 0.75rem;
   }
 
-=======
->>>>>>> ismail:dist/about.css
   .lg\:pl-4 {
     padding-left: 1rem;
-  }
-
-  .lg\:pr-32 {
-    padding-right: 8rem;
   }
 
   .lg\:pt-2 {
