@@ -851,27 +851,16 @@ select {
   z-index: 40;
 }
 
-<<<<<<< HEAD:dist/output.css
 .z-50 {
   z-index: 50;
 }
 
-=======
->>>>>>> ismail:dist/about.css
 .-m-2 {
   margin: -0.5rem;
 }
 
 .-m-4 {
   margin: -1rem;
-}
-
-.m-4 {
-  margin: 1rem;
-}
-
-.m-8 {
-  margin: 2rem;
 }
 
 .-mx-2 {
@@ -904,20 +893,12 @@ select {
   margin-bottom: 1.5rem;
 }
 
-.-mb-px {
-  margin-bottom: -1px;
-}
-
 .-mr-1 {
   margin-right: -0.25rem;
 }
 
 .-mr-2 {
   margin-right: -0.5rem;
-}
-
-.mb-0 {
-  margin-bottom: 0px;
 }
 
 .mb-1 {
@@ -928,16 +909,8 @@ select {
   margin-bottom: 3rem;
 }
 
-.mb-16 {
-  margin-bottom: 4rem;
-}
-
 .mb-2 {
   margin-bottom: 0.5rem;
-}
-
-.mb-36 {
-  margin-bottom: 9rem;
 }
 
 .mb-4 {
@@ -954,10 +927,6 @@ select {
 
 .mb-7 {
   margin-bottom: 1.75rem;
-}
-
-.mb-8 {
-  margin-bottom: 2rem;
 }
 
 .mb-9 {
@@ -1016,10 +985,6 @@ select {
   margin-right: 1.5rem;
 }
 
-.mr-auto {
-  margin-right: auto;
-}
-
 .mt-1 {
   margin-top: 0.25rem;
 }
@@ -1044,10 +1009,6 @@ select {
   margin-top: 0.625rem;
 }
 
-.mt-24 {
-  margin-top: 6rem;
-}
-
 .mt-3 {
   margin-top: 0.75rem;
 }
@@ -1060,21 +1021,38 @@ select {
   margin-top: 1.25rem;
 }
 
-.mt-6 {
-  margin-top: 1.5rem;
-}
-
 .mt-7 {
   margin-top: 1.75rem;
 }
 
-<<<<<<< HEAD:dist/output.css
 .mt-8 {
   margin-top: 2rem;
 }
 
-=======
->>>>>>> ismail:dist/about.css
+.-mb-px {
+  margin-bottom: -1px;
+}
+
+.mb-0 {
+  margin-bottom: 0px;
+}
+
+.mb-36 {
+  margin-bottom: 9rem;
+}
+
+.mb-8 {
+  margin-bottom: 2rem;
+}
+
+.mr-auto {
+  margin-right: auto;
+}
+
+.mt-24 {
+  margin-top: 6rem;
+}
+
 .block {
   display: block;
 }
@@ -1228,10 +1206,6 @@ select {
   width: 1.5rem;
 }
 
-.w-60 {
-  width: 15rem;
-}
-
 .w-64 {
   width: 16rem;
 }
@@ -1252,17 +1226,8 @@ select {
   width: 100%;
 }
 
-<<<<<<< HEAD:dist/output.css
 .w-\[410px\] {
   width: 410px;
-}
-
-.w-\[60\%\] {
-  width: 60%;
-}
-
-.w-\[70\%\] {
-  width: 70%;
 }
 
 .w-auto {
@@ -1278,18 +1243,12 @@ select {
   width: 100%;
 }
 
-=======
->>>>>>> ismail:dist/about.css
 .min-w-0 {
   min-width: 0px;
 }
 
 .max-w-2xl {
   max-width: 42rem;
-}
-
-.max-w-4xl {
-  max-width: 56rem;
 }
 
 .max-w-7xl {
@@ -1304,20 +1263,24 @@ select {
   max-width: 28rem;
 }
 
-.max-w-screen-md {
-  max-width: 768px;
-}
-
-.max-w-screen-sm {
-  max-width: 640px;
-}
-
 .max-w-screen-xl {
   max-width: 1280px;
 }
 
 .max-w-xs {
   max-width: 20rem;
+}
+
+.max-w-4xl {
+  max-width: 56rem;
+}
+
+.max-w-screen-md {
+  max-width: 768px;
+}
+
+.max-w-screen-sm {
+  max-width: 640px;
 }
 
 .flex-1 {
@@ -1434,10 +1397,6 @@ select {
   flex-wrap: wrap;
 }
 
-.place-content-center {
-  place-content: center;
-}
-
 .content-center {
   align-content: center;
 }
@@ -1458,7 +1417,6 @@ select {
   align-items: baseline;
 }
 
-<<<<<<< HEAD:dist/output.css
 .justify-start {
   justify-content: flex-start;
 }
@@ -1467,8 +1425,6 @@ select {
   justify-content: flex-end;
 }
 
-=======
->>>>>>> ismail:dist/about.css
 .justify-center {
   justify-content: center;
 }
@@ -1477,16 +1433,16 @@ select {
   justify-content: space-between;
 }
 
+.justify-evenly {
+  justify-content: space-evenly;
+}
+
 .gap-1 {
   gap: 0.25rem;
 }
 
 .gap-1\.5 {
   gap: 0.375rem;
-}
-
-.gap-16 {
-  gap: 4rem;
 }
 
 .gap-2 {
@@ -1505,15 +1461,16 @@ select {
   gap: 1.25rem;
 }
 
-<<<<<<< HEAD:dist/output.css
 .gap-6 {
   gap: 1.5rem;
 }
 
-=======
->>>>>>> ismail:dist/about.css
 .gap-8 {
   gap: 2rem;
+}
+
+.gap-16 {
+  gap: 4rem;
 }
 
 .gap-x-8 {
@@ -1529,18 +1486,6 @@ select {
   --tw-space-x-reverse: 0;
   margin-right: calc(0.5rem * var(--tw-space-x-reverse));
   margin-left: calc(0.5rem * calc(1 - var(--tw-space-x-reverse)));
-}
-
-.space-x-4 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-x-reverse: 0;
-  margin-right: calc(1rem * var(--tw-space-x-reverse));
-  margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
-}
-
-.space-x-5 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-x-reverse: 0;
-  margin-right: calc(1.25rem * var(--tw-space-x-reverse));
-  margin-left: calc(1.25rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
 .space-x-6 > :not([hidden]) ~ :not([hidden]) {
@@ -1573,6 +1518,12 @@ select {
   margin-bottom: calc(2rem * var(--tw-space-y-reverse));
 }
 
+.space-x-4 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(1rem * var(--tw-space-x-reverse));
+  margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
 .divide-y > :not([hidden]) ~ :not([hidden]) {
   --tw-divide-y-reverse: 0;
   border-top-width: calc(1px * calc(1 - var(--tw-divide-y-reverse)));
@@ -1592,7 +1543,6 @@ select {
   align-self: center;
 }
 
-<<<<<<< HEAD:dist/output.css
 .overflow-hidden {
   overflow: hidden;
 }
@@ -1601,8 +1551,6 @@ select {
   overflow-x: auto;
 }
 
-=======
->>>>>>> ismail:dist/about.css
 .overflow-y-auto {
   overflow-y: auto;
 }
@@ -1629,13 +1577,10 @@ select {
   border-radius: 0.25rem;
 }
 
-<<<<<<< HEAD:dist/output.css
 .rounded-2xl {
   border-radius: 1rem;
 }
 
-=======
->>>>>>> ismail:dist/about.css
 .rounded-3xl {
   border-radius: 1.5rem;
 }
@@ -1652,7 +1597,6 @@ select {
   border-radius: 0.375rem;
 }
 
-<<<<<<< HEAD:dist/output.css
 .rounded-xl {
   border-radius: 0.75rem;
 }
@@ -1667,18 +1611,12 @@ select {
   border-bottom-right-radius: 0.5rem;
 }
 
-=======
->>>>>>> ismail:dist/about.css
 .border {
   border-width: 1px;
 }
 
 .border-0 {
   border-width: 0px;
-}
-
-.border-2 {
-  border-width: 2px;
 }
 
 .border-b {
@@ -1701,11 +1639,6 @@ select {
 .border-black {
   --tw-border-opacity: 1;
   border-color: rgb(0 0 0 / var(--tw-border-opacity));
-}
-
-.border-blue-500 {
-  --tw-border-opacity: 1;
-  border-color: rgb(59 130 246 / var(--tw-border-opacity));
 }
 
 .border-blue-600 {
@@ -1731,11 +1664,6 @@ select {
 .border-gray-300 {
   --tw-border-opacity: 1;
   border-color: rgb(209 213 219 / var(--tw-border-opacity));
-}
-
-.border-gray-500 {
-  --tw-border-opacity: 1;
-  border-color: rgb(107 114 128 / var(--tw-border-opacity));
 }
 
 .border-green-300 {
@@ -1766,11 +1694,6 @@ select {
 .bg-black {
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
-}
-
-.bg-blue-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(59 130 246 / var(--tw-bg-opacity));
 }
 
 .bg-blue-700 {
@@ -1813,30 +1736,16 @@ select {
   background-color: rgb(34 197 94 / var(--tw-bg-opacity));
 }
 
-.bg-orange-100 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 237 213 / var(--tw-bg-opacity));
-}
-
 .bg-orange-300 {
   --tw-bg-opacity: 1;
   background-color: rgb(253 186 116 / var(--tw-bg-opacity));
 }
 
-<<<<<<< HEAD:dist/output.css
-.bg-orange-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(249 115 22 / var(--tw-bg-opacity));
-}
-
-=======
->>>>>>> ismail:dist/about.css
 .bg-orange-600 {
   --tw-bg-opacity: 1;
   background-color: rgb(234 88 12 / var(--tw-bg-opacity));
 }
 
-<<<<<<< HEAD:dist/output.css
 .bg-primary-600 {
   --tw-bg-opacity: 1;
   background-color: rgb(217 119 6 / var(--tw-bg-opacity));
@@ -1851,25 +1760,24 @@ select {
   background-color: transparent;
 }
 
-=======
->>>>>>> ismail:dist/about.css
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-<<<<<<< HEAD:dist/output.css
 .bg-white\/50 {
   background-color: rgb(255 255 255 / 0.5);
 }
 
-=======
->>>>>>> ismail:dist/about.css
+.bg-orange-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 237 213 / var(--tw-bg-opacity));
+}
+
 .bg-opacity-25 {
   --tw-bg-opacity: 0.25;
 }
 
-<<<<<<< HEAD:dist/output.css
 .bg-opacity-50 {
   --tw-bg-opacity: 0.5;
 }
@@ -1882,8 +1790,6 @@ select {
   padding: 3rem;
 }
 
-=======
->>>>>>> ismail:dist/about.css
 .p-2 {
   padding: 0.5rem;
 }
@@ -1912,14 +1818,11 @@ select {
   padding: 2rem;
 }
 
-<<<<<<< HEAD:dist/output.css
 .px-12 {
   padding-left: 3rem;
   padding-right: 3rem;
 }
 
-=======
->>>>>>> ismail:dist/about.css
 .px-2 {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
@@ -1960,11 +1863,6 @@ select {
   padding-bottom: 0.375rem;
 }
 
-.py-10 {
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
-}
-
 .py-12 {
   padding-top: 3rem;
   padding-bottom: 3rem;
@@ -1978,11 +1876,6 @@ select {
 .py-2\.5 {
   padding-top: 0.625rem;
   padding-bottom: 0.625rem;
-}
-
-.py-20 {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
 }
 
 .py-24 {
@@ -2000,11 +1893,6 @@ select {
   padding-bottom: 1rem;
 }
 
-.py-5 {
-  padding-top: 1.25rem;
-  padding-bottom: 1.25rem;
-}
-
 .py-6 {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
@@ -2013,6 +1901,16 @@ select {
 .py-8 {
   padding-top: 2rem;
   padding-bottom: 2rem;
+}
+
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+.py-5 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
 }
 
 .pb-12 {
@@ -2051,11 +1949,6 @@ select {
   padding-top: 0.25rem;
 }
 
-<<<<<<< HEAD:dist/output.css
-.pt-12 {
-  padding-top: 3rem;
-}
-
 .pt-2 {
   padding-top: 0.5rem;
 }
@@ -2064,8 +1957,6 @@ select {
   padding-top: 5rem;
 }
 
-=======
->>>>>>> ismail:dist/about.css
 .pt-24 {
   padding-top: 6rem;
 }
@@ -2082,13 +1973,10 @@ select {
   text-align: center;
 }
 
-<<<<<<< HEAD:dist/output.css
 .font-inter {
   font-family: Inter, sans-serif;
 }
 
-=======
->>>>>>> ismail:dist/about.css
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
@@ -2106,11 +1994,6 @@ select {
 
 .text-5xl {
   font-size: 3rem;
-  line-height: 1;
-}
-
-.text-9xl {
-  font-size: 8rem;
   line-height: 1;
 }
 
@@ -2139,16 +2022,8 @@ select {
   line-height: 1rem;
 }
 
-.font-black {
-  font-weight: 900;
-}
-
 .font-bold {
   font-weight: 700;
-}
-
-.font-extrabold {
-  font-weight: 800;
 }
 
 .font-light {
@@ -2167,12 +2042,12 @@ select {
   font-weight: 600;
 }
 
-.uppercase {
-  text-transform: uppercase;
+.font-extrabold {
+  font-weight: 800;
 }
 
-.capitalize {
-  text-transform: capitalize;
+.uppercase {
+  text-transform: uppercase;
 }
 
 .leading-6 {
@@ -2187,24 +2062,16 @@ select {
   line-height: 2;
 }
 
-.leading-normal {
-  line-height: 1.5;
-}
-
 .leading-relaxed {
   line-height: 1.625;
 }
 
-.leading-tight {
-  line-height: 1.25;
+.leading-normal {
+  line-height: 1.5;
 }
 
 .tracking-tight {
   letter-spacing: -0.025em;
-}
-
-.tracking-wide {
-  letter-spacing: 0.025em;
 }
 
 .tracking-wider {
@@ -2220,16 +2087,6 @@ select {
   color: rgb(0 55 62 / var(--tw-text-opacity));
 }
 
-.text-\[\#00acee\] {
-  --tw-text-opacity: 1;
-  color: rgb(0 172 238 / var(--tw-text-opacity));
-}
-
-.text-\[\#39569c\] {
-  --tw-text-opacity: 1;
-  color: rgb(57 86 156 / var(--tw-text-opacity));
-}
-
 .text-\[\#7F7D83\] {
   --tw-text-opacity: 1;
   color: rgb(127 125 131 / var(--tw-text-opacity));
@@ -2240,11 +2097,6 @@ select {
   color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
-.text-blue-500 {
-  --tw-text-opacity: 1;
-  color: rgb(59 130 246 / var(--tw-text-opacity));
-}
-
 .text-blue-600 {
   --tw-text-opacity: 1;
   color: rgb(37 99 235 / var(--tw-text-opacity));
@@ -2253,16 +2105,6 @@ select {
 .text-blue-700 {
   --tw-text-opacity: 1;
   color: rgb(29 78 216 / var(--tw-text-opacity));
-}
-
-.text-blue-900 {
-  --tw-text-opacity: 1;
-  color: rgb(30 58 138 / var(--tw-text-opacity));
-}
-
-.text-gray-200 {
-  --tw-text-opacity: 1;
-  color: rgb(229 231 235 / var(--tw-text-opacity));
 }
 
 .text-gray-400 {
@@ -2300,11 +2142,6 @@ select {
   color: rgb(22 101 52 / var(--tw-text-opacity));
 }
 
-.text-orange-500 {
-  --tw-text-opacity: 1;
-  color: rgb(249 115 22 / var(--tw-text-opacity));
-}
-
 .text-orange-600 {
   --tw-text-opacity: 1;
   color: rgb(234 88 12 / var(--tw-text-opacity));
@@ -2330,11 +2167,6 @@ select {
   color: rgb(239 68 68 / var(--tw-text-opacity));
 }
 
-.text-red-600 {
-  --tw-text-opacity: 1;
-  color: rgb(220 38 38 / var(--tw-text-opacity));
-}
-
 .text-red-800 {
   --tw-text-opacity: 1;
   color: rgb(153 27 27 / var(--tw-text-opacity));
@@ -2345,7 +2177,16 @@ select {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-<<<<<<< HEAD:dist/output.css
+.text-\[\#00acee\] {
+  --tw-text-opacity: 1;
+  color: rgb(0 172 238 / var(--tw-text-opacity));
+}
+
+.text-\[\#39569c\] {
+  --tw-text-opacity: 1;
+  color: rgb(57 86 156 / var(--tw-text-opacity));
+}
+
 .underline {
   text-decoration-line: underline;
 }
@@ -2358,8 +2199,6 @@ select {
   opacity: 1;
 }
 
-=======
->>>>>>> ismail:dist/about.css
 .shadow {
   --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
@@ -2424,12 +2263,6 @@ select {
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 150ms;
-}
-
-.transition-colors {
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
 }
@@ -2523,16 +2356,6 @@ h1 {
   background-color: rgb(249 250 251 / var(--tw-bg-opacity));
 }
 
-.hover\:bg-orange-500:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(249 115 22 / var(--tw-bg-opacity));
-}
-
-.hover\:bg-orange-600:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(234 88 12 / var(--tw-bg-opacity));
-}
-
 .hover\:bg-orange-700:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(194 65 12 / var(--tw-bg-opacity));
@@ -2541,11 +2364,6 @@ h1 {
 .hover\:bg-primary-700:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(180 83 9 / var(--tw-bg-opacity));
-}
-
-.hover\:bg-primary-800:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(146 64 14 / var(--tw-bg-opacity));
 }
 
 .hover\:bg-white:hover {
@@ -2568,14 +2386,11 @@ h1 {
   color: rgb(107 114 128 / var(--tw-text-opacity));
 }
 
-<<<<<<< HEAD:dist/output.css
 .hover\:text-gray-600:hover {
   --tw-text-opacity: 1;
   color: rgb(75 85 99 / var(--tw-text-opacity));
 }
 
-=======
->>>>>>> ismail:dist/about.css
 .hover\:text-gray-700:hover {
   --tw-text-opacity: 1;
   color: rgb(55 65 81 / var(--tw-text-opacity));
@@ -2586,14 +2401,11 @@ h1 {
   color: rgb(17 24 39 / var(--tw-text-opacity));
 }
 
-<<<<<<< HEAD:dist/output.css
 .hover\:text-white:hover {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-=======
->>>>>>> ismail:dist/about.css
 .hover\:underline:hover {
   text-decoration-line: underline;
 }
@@ -2603,30 +2415,9 @@ h1 {
   border-color: rgb(59 130 246 / var(--tw-border-opacity));
 }
 
-.focus\:border-primary-500:focus {
-  --tw-border-opacity: 1;
-  border-color: rgb(245 158 11 / var(--tw-border-opacity));
-}
-
-.focus\:bg-gray-100:focus {
-  --tw-bg-opacity: 1;
-  background-color: rgb(243 244 246 / var(--tw-bg-opacity));
-}
-
-.focus\:bg-orange-500:focus {
-  --tw-bg-opacity: 1;
-  background-color: rgb(249 115 22 / var(--tw-bg-opacity));
-}
-
 .focus\:outline-none:focus {
   outline: 2px solid transparent;
   outline-offset: 2px;
-}
-
-.focus\:ring:focus {
-  --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
-  --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(3px + var(--tw-ring-offset-width)) var(--tw-ring-color);
-  box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
 }
 
 .focus\:ring-2:focus {
@@ -2679,15 +2470,6 @@ h1 {
 .focus\:ring-primary-300:focus {
   --tw-ring-opacity: 1;
   --tw-ring-color: rgb(252 211 77 / var(--tw-ring-opacity));
-}
-
-.focus\:ring-primary-500:focus {
-  --tw-ring-opacity: 1;
-  --tw-ring-color: rgb(245 158 11 / var(--tw-ring-opacity));
-}
-
-.focus\:ring-opacity-80:focus {
-  --tw-ring-opacity: 0.8;
 }
 
 .group[open] .group-open\:-rotate-180 {
@@ -2773,24 +2555,19 @@ h1 {
   background-color: rgb(17 24 39 / var(--tw-bg-opacity));
 }
 
-:is(.dark .dark\:bg-orange-500) {
-  --tw-bg-opacity: 1;
-  background-color: rgb(249 115 22 / var(--tw-bg-opacity));
-}
-
 :is(.dark .dark\:bg-orange-600) {
   --tw-bg-opacity: 1;
   background-color: rgb(234 88 12 / var(--tw-bg-opacity));
 }
 
-:is(.dark .dark\:bg-orange-900) {
-  --tw-bg-opacity: 1;
-  background-color: rgb(124 45 18 / var(--tw-bg-opacity));
-}
-
 :is(.dark .dark\:bg-primary-600) {
   --tw-bg-opacity: 1;
   background-color: rgb(217 119 6 / var(--tw-bg-opacity));
+}
+
+:is(.dark .dark\:bg-orange-900) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(124 45 18 / var(--tw-bg-opacity));
 }
 
 :is(.dark .dark\:bg-opacity-80) {
@@ -2800,11 +2577,6 @@ h1 {
 :is(.dark .dark\:text-blue-500) {
   --tw-text-opacity: 1;
   color: rgb(59 130 246 / var(--tw-text-opacity));
-}
-
-:is(.dark .dark\:text-gray-100) {
-  --tw-text-opacity: 1;
-  color: rgb(243 244 246 / var(--tw-text-opacity));
 }
 
 :is(.dark .dark\:text-gray-200) {
@@ -2822,17 +2594,16 @@ h1 {
   color: rgb(156 163 175 / var(--tw-text-opacity));
 }
 
-:is(.dark .dark\:text-primary-300) {
-  --tw-text-opacity: 1;
-  color: rgb(252 211 77 / var(--tw-text-opacity));
-}
-
 :is(.dark .dark\:text-white) {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-<<<<<<< HEAD:dist/output.css
+:is(.dark .dark\:text-primary-300) {
+  --tw-text-opacity: 1;
+  color: rgb(252 211 77 / var(--tw-text-opacity));
+}
+
 :is(.dark .dark\:placeholder-gray-400)::-moz-placeholder {
   --tw-placeholder-opacity: 1;
   color: rgb(156 163 175 / var(--tw-placeholder-opacity));
@@ -2843,8 +2614,6 @@ h1 {
   color: rgb(156 163 175 / var(--tw-placeholder-opacity));
 }
 
-=======
->>>>>>> ismail:dist/about.css
 :is(.dark .dark\:ring-gray-700) {
   --tw-ring-opacity: 1;
   --tw-ring-color: rgb(55 65 81 / var(--tw-ring-opacity));
@@ -2874,11 +2643,6 @@ h1 {
   background-color: rgb(31 41 55 / var(--tw-bg-opacity));
 }
 
-:is(.dark .dark\:hover\:bg-orange-500:hover) {
-  --tw-bg-opacity: 1;
-  background-color: rgb(249 115 22 / var(--tw-bg-opacity));
-}
-
 :is(.dark .dark\:hover\:bg-orange-700:hover) {
   --tw-bg-opacity: 1;
   background-color: rgb(194 65 12 / var(--tw-bg-opacity));
@@ -2902,11 +2666,6 @@ h1 {
 :is(.dark .dark\:hover\:text-white:hover) {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-:is(.dark .dark\:focus\:border-primary-500:focus) {
-  --tw-border-opacity: 1;
-  border-color: rgb(245 158 11 / var(--tw-border-opacity));
 }
 
 :is(.dark .dark\:focus\:ring-blue-600:focus) {
@@ -2939,11 +2698,6 @@ h1 {
   --tw-ring-color: rgb(234 88 12 / var(--tw-ring-opacity));
 }
 
-:is(.dark .dark\:focus\:ring-primary-500:focus) {
-  --tw-ring-opacity: 1;
-  --tw-ring-color: rgb(245 158 11 / var(--tw-ring-opacity));
-}
-
 :is(.dark .dark\:focus\:ring-primary-800:focus) {
   --tw-ring-opacity: 1;
   --tw-ring-color: rgb(146 64 14 / var(--tw-ring-opacity));
@@ -2959,17 +2713,9 @@ h1 {
 }
 
 @media (min-width: 640px) {
-  .sm\:col-span-2 {
-    grid-column: span 2 / span 2;
-  }
-
   .sm\:mx-auto {
     margin-left: auto;
     margin-right: auto;
-  }
-
-  .sm\:ml-4 {
-    margin-left: 1rem;
   }
 
   .sm\:ml-6 {
@@ -2994,10 +2740,6 @@ h1 {
 
   .sm\:h-9 {
     height: 2.25rem;
-  }
-
-  .sm\:w-40 {
-    width: 10rem;
   }
 
   .sm\:grid-cols-2 {
@@ -3059,11 +2801,6 @@ h1 {
     line-height: 2.25rem;
   }
 
-  .sm\:text-4xl {
-    font-size: 2.25rem;
-    line-height: 2.5rem;
-  }
-
   .sm\:text-lg {
     font-size: 1.125rem;
     line-height: 1.75rem;
@@ -3088,14 +2825,6 @@ h1 {
     inset: 0px;
   }
 
-  .md\:order-1 {
-    order: 1;
-  }
-
-  .md\:order-2 {
-    order: 2;
-  }
-
   .md\:mb-0 {
     margin-bottom: 0px;
   }
@@ -3104,20 +2833,8 @@ h1 {
     margin-left: 0.25rem;
   }
 
-  .md\:mr-0 {
-    margin-right: 0px;
-  }
-
   .md\:mr-24 {
     margin-right: 6rem;
-  }
-
-  .md\:mt-0 {
-    margin-top: 0px;
-  }
-
-  .md\:mt-10 {
-    margin-top: 2.5rem;
   }
 
   .md\:flex {
@@ -3128,20 +2845,8 @@ h1 {
     display: grid;
   }
 
-  .md\:hidden {
-    display: none;
-  }
-
-  .md\:h-screen {
-    height: 100vh;
-  }
-
   .md\:w-1\/2 {
     width: 50%;
-  }
-
-  .md\:w-auto {
-    width: auto;
   }
 
   .md\:grid-cols-2 {
@@ -3156,38 +2861,16 @@ h1 {
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 
-  .md\:flex-row {
-    flex-direction: row;
-  }
-
-  .md\:items-center {
-    align-items: center;
-  }
-
-  .md\:justify-start {
-    justify-content: flex-start;
-  }
-
-  .md\:justify-end {
-    justify-content: flex-end;
-  }
-
   .md\:justify-between {
     justify-content: space-between;
-  }
-
-  .md\:gap-12 {
-    gap: 3rem;
   }
 
   .md\:gap-5 {
     gap: 1.25rem;
   }
 
-  .md\:space-x-8 > :not([hidden]) ~ :not([hidden]) {
-    --tw-space-x-reverse: 0;
-    margin-right: calc(2rem * var(--tw-space-x-reverse));
-    margin-left: calc(2rem * calc(1 - var(--tw-space-x-reverse)));
+  .md\:gap-12 {
+    gap: 3rem;
   }
 
   .md\:space-y-0 > :not([hidden]) ~ :not([hidden]) {
@@ -3196,47 +2879,8 @@ h1 {
     margin-bottom: calc(0px * var(--tw-space-y-reverse));
   }
 
-  .md\:border-0 {
-    border-width: 0px;
-  }
-
-  .md\:bg-transparent {
-    background-color: transparent;
-  }
-
-  .md\:bg-white {
-    --tw-bg-opacity: 1;
-    background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-  }
-
-  .md\:p-0 {
-    padding: 0px;
-  }
-
   .md\:p-6 {
     padding: 1.5rem;
-  }
-
-  .md\:px-20 {
-    padding-left: 5rem;
-    padding-right: 5rem;
-  }
-
-  .md\:py-32 {
-    padding-top: 8rem;
-    padding-bottom: 8rem;
-  }
-
-<<<<<<< HEAD:dist/output.css
-  .md\:text-left {
-    text-align: left;
-  }
-
-=======
->>>>>>> ismail:dist/about.css
-  .md\:text-4xl {
-    font-size: 2.25rem;
-    line-height: 2.5rem;
   }
 
   .md\:text-5xl {
@@ -3244,48 +2888,19 @@ h1 {
     line-height: 1;
   }
 
-  .md\:text-base {
-    font-size: 1rem;
-    line-height: 1.5rem;
-  }
-<<<<<<< HEAD:dist/output.css
-
   .md\:text-lg {
     font-size: 1.125rem;
     line-height: 1.75rem;
   }
 
-  .md\:text-orange-500 {
-    --tw-text-opacity: 1;
-    color: rgb(249 115 22 / var(--tw-text-opacity));
+  .md\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
   }
 
-  .md\:hover\:bg-transparent:hover {
-    background-color: transparent;
-  }
-
-  .md\:hover\:text-orange-700:hover {
-    --tw-text-opacity: 1;
-    color: rgb(194 65 12 / var(--tw-text-opacity));
-  }
-
-  :is(.dark .md\:dark\:bg-gray-900) {
-    --tw-bg-opacity: 1;
-    background-color: rgb(17 24 39 / var(--tw-bg-opacity));
-  }
-
-  :is(.dark .md\:dark\:text-orange-500) {
-    --tw-text-opacity: 1;
-    color: rgb(249 115 22 / var(--tw-text-opacity));
-  }
-
-  :is(.dark .md\:dark\:hover\:bg-transparent:hover) {
-    background-color: transparent;
-  }
-
-  :is(.dark .md\:dark\:hover\:text-orange-500:hover) {
-    --tw-text-opacity: 1;
-    color: rgb(249 115 22 / var(--tw-text-opacity));
+  .md\:text-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
   }
 }
 
@@ -3302,8 +2917,6 @@ h1 {
     --tw-translate-x: 0px;
     transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
   }
-=======
->>>>>>> ismail:dist/about.css
 }
 
 @media (min-width: 1024px) {
@@ -3335,7 +2948,6 @@ h1 {
     grid-column: span 7 / span 7;
   }
 
-<<<<<<< HEAD:dist/output.css
   .lg\:mx-0 {
     margin-left: 0px;
     margin-right: 0px;
@@ -3346,15 +2958,9 @@ h1 {
     margin-right: auto;
   }
 
-=======
->>>>>>> ismail:dist/about.css
   .lg\:my-8 {
     margin-top: 2rem;
     margin-bottom: 2rem;
-  }
-
-  .lg\:mb-16 {
-    margin-bottom: 4rem;
   }
 
   .lg\:mb-8 {
@@ -3365,12 +2971,16 @@ h1 {
     margin-top: 0px;
   }
 
-  .lg\:mt-10 {
-    margin-top: 2.5rem;
-  }
-
   .lg\:mt-8 {
     margin-top: 2rem;
+  }
+
+  .lg\:mb-16 {
+    margin-bottom: 4rem;
+  }
+
+  .lg\:mt-10 {
+    margin-top: 2.5rem;
   }
 
   .lg\:block {
@@ -3389,6 +2999,11 @@ h1 {
     display: none;
   }
 
+  .lg\:h-fit {
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+
   .lg\:h-12 {
     height: 3rem;
   }
@@ -3397,21 +3012,8 @@ h1 {
     height: 1.5rem;
   }
 
-  .lg\:h-fit {
-    height: -moz-fit-content;
-    height: fit-content;
-  }
-
   .lg\:w-1\/4 {
     width: 25%;
-  }
-
-  .lg\:w-12 {
-    width: 3rem;
-  }
-
-  .lg\:w-6 {
-    width: 1.5rem;
   }
 
   .lg\:w-auto {
@@ -3423,12 +3025,16 @@ h1 {
     width: fit-content;
   }
 
-  .lg\:grid-cols-12 {
-    grid-template-columns: repeat(12, minmax(0, 1fr));
+  .lg\:w-12 {
+    width: 3rem;
   }
 
-  .lg\:grid-cols-2 {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+  .lg\:w-6 {
+    width: 1.5rem;
+  }
+
+  .lg\:grid-cols-12 {
+    grid-template-columns: repeat(12, minmax(0, 1fr));
   }
 
   .lg\:grid-cols-3 {
@@ -3437,6 +3043,10 @@ h1 {
 
   .lg\:grid-cols-4 {
     grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .lg\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .lg\:flex-row {
@@ -3529,7 +3139,6 @@ h1 {
     padding-bottom: 1.5rem;
   }
 
-<<<<<<< HEAD:dist/output.css
   .lg\:py-8 {
     padding-top: 2rem;
     padding-bottom: 2rem;
@@ -3539,14 +3148,8 @@ h1 {
     padding-left: 0.75rem;
   }
 
-=======
->>>>>>> ismail:dist/about.css
   .lg\:pl-4 {
     padding-left: 1rem;
-  }
-
-  .lg\:pr-32 {
-    padding-right: 8rem;
   }
 
   .lg\:pt-2 {
@@ -3562,14 +3165,14 @@ h1 {
     line-height: 1;
   }
 
-  .lg\:text-6xl {
-    font-size: 3.75rem;
-    line-height: 1;
-  }
-
   .lg\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
+  }
+
+  .lg\:text-6xl {
+    font-size: 3.75rem;
+    line-height: 1;
   }
 
   .lg\:text-primary-700 {
@@ -3597,20 +3200,8 @@ h1 {
 }
 
 @media (min-width: 1280px) {
-  .xl\:mt-12 {
-    margin-top: 3rem;
-  }
-
-  .xl\:mt-6 {
-    margin-top: 1.5rem;
-  }
-
   .xl\:gap-0 {
     gap: 0px;
-  }
-
-  .xl\:gap-12 {
-    gap: 3rem;
   }
 
   .xl\:text-8xl {
