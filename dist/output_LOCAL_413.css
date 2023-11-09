@@ -834,10 +834,6 @@ video {
   max-width: 1280px;
 }
 
-.max-w-screen-sm {
-  max-width: 640px;
-}
-
 .flex-1 {
   flex: 1 1 0%;
 }
@@ -1169,11 +1165,6 @@ video {
   padding-bottom: 2rem;
 }
 
-.py-32 {
-  padding-top: 8rem;
-  padding-bottom: 8rem;
-}
-
 .pl-3 {
   padding-left: 0.75rem;
 }
@@ -1238,10 +1229,6 @@ video {
 
 .font-semibold {
   font-weight: 600;
-}
-
-.font-normal {
-  font-weight: 400;
 }
 
 .uppercase {
