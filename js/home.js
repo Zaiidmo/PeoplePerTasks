@@ -35,3 +35,9 @@ nextbtn.addEventListener("click", next);
 prvbtn.addEventListener("click", previous);
 mobileNext.addEventListener("click", next);
 mobilePrev.addEventListener("click", previous);
+
+//More categories 
+let btn = document.querySelector("#More");
+btn.onclick = function() {
+  window.location.replace("../src/marketplace.html");
+}
