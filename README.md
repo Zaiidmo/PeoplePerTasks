@@ -44,6 +44,12 @@ https://people-per-task.vercel.app/src
 ![Dashboard](https://github.com/Zaiidmo/PeoplePerTasks/blob/master/screenshots/screencapture-127-0-0-1-5501-src-dashboard-html-2023-11-03-12_10_25.png?raw=true)
 - **Freelancers**
 ![Freelancers](https://github.com/Zaiidmo/PeoplePerTasks/blob/master/screenshots/screencapture-127-0-0-1-5501-src-freelancers-html-2023-11-03-12_11_34.png?raw=true)
+- **conatct**
+![conatct](https://github.com/Zaiidmo/PeoplePerTasks/blob/develop/screenshots/screencapture-127-0-0-1-5500-src-contact-html-2023-11-13-10_39_59-min.png?raw=true)
+- **sign In**
+![sign In](https://github.com/Zaiidmo/PeoplePerTasks/blob/develop/screenshots/screencapture-127-0-0-1-5500-src-signin-html-2023-11-13-10_40_18-min.png?raw=true)
+- **Sign Up**
+![Sign Up](https://github.com/Zaiidmo/PeoplePerTasks/blob/develop/screenshots/screencapture-127-0-0-1-5500-src-signup-html-2023-11-13-10_39_27-min.png?raw=true)
 ## Color Reference
 
 | Color             | Hex                                                                |
