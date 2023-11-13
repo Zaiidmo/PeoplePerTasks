@@ -33,17 +33,17 @@ https://people-per-task.vercel.app/src
 
 ## Screenshots
 - **Home**
-![Home](https://github.com/Zaiidmo/PeoplePerTasks/blob/master/screenshots/screencapture-127-0-0-1-5500-src-2023-11-03-12_15_14.png?raw=true)
+![Home](https://github.com/Zaiidmo/PeoplePerTasks/blob/master/screenshots/screencapture-127-0-0-1-5500-src-2023-11-03-12_15_14-min.png?raw=true)
 - **About**
-![about](https://github.com/Zaiidmo/PeoplePerTasks/blob/master/screenshots/screencapture-127-0-0-1-5500-src-about-html-2023-11-03-12_11_25.png?raw=true)
+![about](https://github.com/Zaiidmo/PeoplePerTasks/blob/master/screenshots/screencapture-127-0-0-1-5500-src-about-html-2023-11-03-12_11_25-min.png?raw=true)
 - **Pricing**
-![pricing](https://github.com/Zaiidmo/PeoplePerTasks/blob/master/screenshots/screencapture-127-0-0-1-5500-src-pricing-html-2023-11-03-12_10_40.png?raw=true)
+![pricing](https://github.com/Zaiidmo/PeoplePerTasks/blob/master/screenshots/screencapture-127-0-0-1-5500-src-pricing-html-2023-11-03-12_10_40-min.png?raw=true)
 - **Market place**
-![marketplace](https://github.com/Zaiidmo/PeoplePerTasks/blob/master/screenshots/screencapture-127-0-0-1-5500-src-marketplace-html-2023-11-03-12_11_06.png?raw=true)
+![marketplace](https://github.com/Zaiidmo/PeoplePerTasks/blob/master/screencapture-127-0-0-1-5500-src-marketplace-html-2023-11-03-12_11_06-min.png?raw=true)
 - **Dashboard**
-![Dashboard](https://github.com/Zaiidmo/PeoplePerTasks/blob/master/screenshots/screencapture-127-0-0-1-5501-src-dashboard-html-2023-11-03-12_10_25.png?raw=true)
+![Dashboard](https://github.com/Zaiidmo/PeoplePerTasks/blob/master/screenshots/screencapture-127-0-0-1-5501-src-dashboard-html-2023-11-03-12_10_25-min.png?raw=true)
 - **Freelancers**
-![Freelancers](https://github.com/Zaiidmo/PeoplePerTasks/blob/master/screenshots/screencapture-127-0-0-1-5501-src-freelancers-html-2023-11-03-12_11_34.png?raw=true)
+![Freelancers](https://github.com/Zaiidmo/PeoplePerTasks/blob/master/screenshots/screencapture-127-0-0-1-5501-src-freelancers-html-2023-11-03-12_11_34-min.png?raw=true)
 - **conatct**
 ![conatct](https://github.com/Zaiidmo/PeoplePerTasks/blob/develop/screenshots/screencapture-127-0-0-1-5500-src-contact-html-2023-11-13-10_39_59-min.png?raw=true)
 - **sign In**
