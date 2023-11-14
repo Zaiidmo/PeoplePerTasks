@@ -1,7 +1,7 @@
 
 # PeoplePerTask
 
-PeoplePerTask est une plateforme indépendante dynamique conçue pour mettre en relation des individus talentueux avec des entreprises et des particuliers ayant besoin de leurs services. Avec une interface conviviale et un large éventail de catégories, PeoplePerTask offre une expérience transparente tant pour les indépendants que pour les clients.
+PeoplePerTask is a dynamic freelance platform designed to connect talented individuals with businesses and individuals in need of their services. With a user-friendly interface and a wide range of categories, PeoplePerTask provides a seamless experience for both freelancers and clients.
 
 
 ## Installation
@@ -22,13 +22,13 @@ Install Node Module
 https://people-per-task.vercel.app/src
 ## Pages
 
-- **Home** : La page d'accueil sert de passerelle vers la plateforme, fournissant un aperçu des services proposés et mettant en évidence les fonctionnalités clés qui distinguent PeoplePerTask. Il présente la diversité des pigistes disponibles et encourage les visiteurs à explorer davantage.
+- **Home** : The homepage serves as a gateway to the platform, providing an overview of the services offered and highlighting the key features that set PeoplePerTask apart. It showcases the diversity of freelancers available and encourages visitors to explore further.
+- 
+- **About** : The About page provides detailed information about the platform's mission, vision, and values. It highlights the benefits of using PeoplePerTask for both freelancers and clients, highlighting the platform's commitment to fostering a thriving freelance community.
 
-- **About** : la page À propos fournit des informations détaillées sur la mission, la vision et les valeurs de la plateforme. Il met en évidence les avantages de l'utilisation de PeoplePerTask tant pour les indépendants que pour les clients, soulignant l'engagement de la plateforme à favoriser une communauté d'indépendants florissante.
+- **Marketplace** : The Marketplace page is the heart of PeoplePerTask, where freelancers can showcase their skills and clients can post their projects. It offers a comprehensive search and filter system, allowing clients to find the perfect freelancer for their needs and allowing freelancers to discover exciting opportunities.
 
-- **Marketplace** : la page Marketplace est le cœur de PeoplePerTask, où les indépendants peuvent présenter leurs compétences et les clients peuvent publier leurs projets. Il offre un système complet de recherche et de filtrage, permettant aux clients de trouver le freelance idéal pour leurs besoins et aux freelances de découvrir des opportunités passionnantes.
-
-- **Contact** : la page de contact offre aux utilisateurs un moyen pratique d'entrer en contact avec l'équipe PeoplePerTask. Il comprend un formulaire de contact, une adresse e-mail et éventuellement un numéro de téléphone, garantissant que les utilisateurs peuvent facilement nous contacter pour toute question, préoccupation ou commentaire.
+- **Contact** : The contact page provides users with a convenient way to get in touch with the PeoplePerTask team. It includes a contact form, email address, and optionally a phone number, ensuring that users can easily contact us with any questions, concerns, or comments.
 
 
 ## Screenshots
@@ -50,6 +50,7 @@ https://people-per-task.vercel.app/src
 ![sign In](https://github.com/Zaiidmo/PeoplePerTasks/blob/develop/screenshots/screencapture-127-0-0-1-5500-src-signin-html-2023-11-13-10_40_18-min.png?raw=true)
 - **Sign Up**
 ![Sign Up](https://github.com/Zaiidmo/PeoplePerTasks/blob/develop/screenshots/screencapture-127-0-0-1-5500-src-signup-html-2023-11-13-10_39_27-min.png?raw=true)
+
 ## Color Reference
 
 | Color             | Hex                                                                |
@@ -60,34 +61,35 @@ https://people-per-task.vercel.app/src
 | Dark-Gray | ![#00373E](https://via.placeholder.com/10/00373E?text=+) #00373E |
 
 
-## Choix du logo
+## ​Choice of LOGO
 
 ![Logo](https://raw.githubusercontent.com/Zaiidmo/PeoplePerTasks/master/images/logo.webp)
 
 ##### Nous avons choisi ce code car notre site Web est une plateforme indépendante qui met en relation ceux qui essaient de trouver un emploi et ceux qui souhaitent embaucher. Ainsi, ce logo fait référence à la connexion et à la créativité.
 ## Tech Stack
 
-**Maquettage:** Figma.
+**Modelling:** Figma.
 
 **Client:** HTML, TailwindCSS, JavaScript.
 
-**Gestion de projet:** [Jira](https://zaiidmoumnii.atlassian.net/jira/software/projects/PPTS/boards/5) *cliquer pour acceder le backlog*.
+**Project's Management:** [Jira](https://zaiidmoumnii.atlassian.net/jira/software/projects/PPTS/boards/5) *cliquer pour acceder le backlog*.
 
-**Hébergement:** GitHub.
-## Contribuant
+**Deployement:** Vercel.
 
-Les contributions sont toujours les bienvenues !
+## Contributor
 
-Voir [Node.Js](https://nodejs.org/en) pour savoir comment commencer.
+Contributions are always welcome!
 
-après ce clone du dépôt en écrivant `git clone <repo link>`.
+Visit [Node.Js](https://nodejs.org/en) to find out how to get started.
 
-ouvrez vscode, si vous ne l'avez pas, cliquez [here](https://code.visualstudio.com/) pour l'installer.
+after this clone the repository by writing `git clone <repo link>`.
 
-ouvrez le terminal, tapez `npm i` et exécutez cette commande `npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch`
+open vscode, if you don't have it, click [here](https://code.visualstudio.com/) to install it.
+
+open terminal, type `npm i` and run this command `npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch`
 ## Documentation
 
-- [Visitez tailwindcss pour en savoir plus.](https://linktodocumentation)
+- [Visit tailwindcss to learn more.](https://linktodocumentation)
 
 
 ## Authors
@@ -106,5 +108,5 @@ ouvrez le terminal, tapez `npm i` et exécutez cette commande `npx tailwindcss -
 
 ## License
 
-Ce projet est sous licence [MIT](https://choosealicense.com/licenses/mit/).
+This Project is licenced [MIT](https://choosealicense.com/licenses/mit/).
 
